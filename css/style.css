@@ -66,17 +66,7 @@
     margin: auto;
 }
 
-.conteinerSeccion .boton{
-    background: #fbff00;
-    color: #000;
-    position: relative;
-    text-align: center;
-    letter-spacing: 3px;
-    margin: 20px auto;
-    width: 150px;
-    padding: 20px;
-    border-radius: 10px;
-}
+
 
 /*SECCION 2*/
 
@@ -102,7 +92,7 @@
 }
 
 .row-aprende{
-    padding-top: 5%;
+    margin: 20px 0 ;
 }
 
 .row-aprende ul{
@@ -111,11 +101,27 @@
     justify-content: space-around;
 }
 
+.row-aprende li{
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-aprende li p{
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
 .row-aprende ul li i{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
     background: #fff022;
     color: #000;
-    margin-right: 5px;
-    padding: 10px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 
@@ -455,6 +461,24 @@ textarea::placeholder{color: #fff;}
 .btn a{
     color: #000;
 }
+
+
+.boton{
+     display: flex;
+     margin: 10px 0;
+     justify-content: center;
+}
+
+.boton a{
+        background: #fbff00;
+        color: #000;
+        text-align: center;
+        text-align: center;
+        width: 150px;
+        padding: 6px 15px;
+        border-radius: 10px;
+    
+}
 /*CIERRE DE BOTONES*/
 
 
@@ -742,3 +766,8 @@ button a:hover{
     padding: 10px;
     text-align: center;
 }
+
+
+
+
+
