@@ -1,43 +1,5 @@
 *{box-sizing: border-box;}
 
-/*Barra de Navegación*/
-
-.contenedorMenu{
-    background: #000;
-    color: #fff;
-    display: flex;  
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: auto;
-}
-
-
-.contentLogo .logoEng img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    padding: 10px;
-    margin-left: 20px;
-}
-
-.navbar .menu ul{
-    display: flex;
-    gap: 20px;
-}
-
-.menu span{
-    color: #fbff00;
-}
-
-.menu{
-    padding-right: 30px;
-}
-
-.menu li a{
-    color: #fff;
-}
-
 /*HOME*/
 
 .conteinerSeccion{
@@ -108,7 +70,7 @@
 }
 
 .row-aprende li p{
-    width: 100px;
+    width: 110px;
     padding: 10px;
     text-align: center;
 }
@@ -164,6 +126,8 @@
     display: flex;
     margin:60px auto;
 }
+
+
 
 
 
@@ -241,6 +205,10 @@ main .conteinerCer{
     width: 500px;
     border-radius: 10px;
 }
+
+
+
+
 
 
 
@@ -329,6 +297,10 @@ main .conteinerCer{
     color: #fff022;
     padding: 0 6px;
 }
+
+
+
+
 
 
 
@@ -492,6 +464,11 @@ textarea::placeholder{color: #fff;}
 
 
 
+
+
+
+
+
 /* SOBRE NOSOTROS*/
 
 .conteinerSN{
@@ -594,14 +571,25 @@ textarea::placeholder{color: #fff;}
 
 /*SECCION 2*/
 
-
-
-
-
-
-
-
 /*CIERRE DE SOBRE NOSOTROS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -770,4 +758,5 @@ button a:hover{
 
 
 
+/*RESPONSIVE*/
 
