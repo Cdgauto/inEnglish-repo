@@ -1,4 +1,7 @@
-*{box-sizing: border-box;}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
 
 /*HOME*/
 
@@ -10,11 +13,11 @@
     margin:auto;
     width: 100%;
     height: 100vh;
-    border-left: 2px solid #fff022;
+    border-right: 3px solid #fff022;
 }   
 
 .conteinerSeccion .title h1{
-    padding-top: 15%;
+    padding-top: 10%;
     text-align: center;
     color:#fff;
     font-size: 25px;
@@ -29,6 +32,58 @@
 }
 
 
+/*Slider*/
+
+.conteiner-slider{
+    box-sizing: border-box;
+    border-top: 3px solid #fff022;
+    border-left: 3px solid #fff022;
+    border-bottom: 3px solid #fff022;
+}
+
+.carousel-item img{
+    background-image:linear-gradient(rgba(5,7,12, .75), rgba(5, 7, 12,.75));
+}
+
+
+/* UBICACION - HOME */
+
+.ubi{
+    width: 100%;
+    height: auto;
+    background: #111;
+    color: #fff;
+    padding: 20px;
+    border-right: 3px solid #fff022;
+    border-bottom: 3px solid #fff022;
+}
+
+.ubi h3{
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding: 20px 15px;
+}
+
+.ubi h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 0 20px 20px 20px;
+}
+
+.ubi h2{
+    text-align: center;
+    color: #2e2d2d;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+.ubicacion iframe {
+    width: 70%;
+    display: flex;
+    margin:60px auto;
+}
+
 
 /*SECCION 2*/
 
@@ -38,9 +93,8 @@
     background: #111;
     color: #fff;
     padding: 20px;
-    border-top: 2px solid #fff022;
-    border-right: 2px solid #fff022;
-    border-bottom: 2px solid #fff022;
+    border-left: 3px solid #fff022;
+    border-bottom: 3px solid #fff022;
 }
 
 .aprende .tituloAP h1{
@@ -89,43 +143,7 @@
 
 
 
-/* UBICACION - HOME */
 
-.ubi{
-    width: 100%;
-    height: auto;
-    background: #111;
-    color: #fff;
-    padding: 20px;
-    border-left: 2px solid #fff022;
-    border-bottom: 2px solid #fff022;
-}
-
-.ubi h3{
-    text-align: center;
-    font-size: 18px;
-    letter-spacing: 5px;
-    padding: 20px 15px;
-}
-
-.ubi h1{
-    text-align: center;
-    font-size: 30px;
-    padding: 0 20px 20px 20px;
-}
-
-.ubi h2{
-    text-align: center;
-    color: #2e2d2d;
-    font-size: 20px;
-    letter-spacing: -1px;
-}
-
-.ubicacion iframe {
-    width: 70%;
-    display: flex;
-    margin:60px auto;
-}
 
 
 
@@ -202,7 +220,6 @@ main .conteinerCer{
 }
 
 .conteinerCer .img2 img{
-    width: 500px;
     border-radius: 10px;
 }
 
@@ -231,7 +248,7 @@ main .conteinerCer{
     border-bottom: 2px solid #fbff00;
 }
 
-.prog .title{
+.prog .titleProg{
     text-align: center;
     padding: 30px 0;
     font-size: 40px;
@@ -246,11 +263,12 @@ main .conteinerCer{
 .colums{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: start;
     padding: 10px 10px 0 10px;
 }
 
 .colums h2{
+    font-size: 20px;
     color: #fff022;
 }
 
@@ -260,7 +278,7 @@ main .conteinerCer{
 
 .column-2{
     text-align: center;
-    padding: 20px;
+    padding: 16px;
 }
 
 .column-2 p{
@@ -286,16 +304,19 @@ main .conteinerCer{
     color: #fff022;
 }
 
-.row {
+.prog .row ul{
     display: flex;
-    margin: 10px auto;
-    padding: 15px;
-    justify-content: space-around;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
 .row i{
-    color: #fff022;
-    padding: 0 6px;
+    margin: 10px auto;
+    padding: 10px;
+    background: #fff022;
+    color: #000; 
+    border-radius: 50%;
 }
 
 
@@ -380,7 +401,8 @@ main .grid-conteinerCon{
 
 .contacto input{
     width: 300px;
-    height: auto;
+    height: 30px;
+    font-size: 13px;
     padding: 15px;
     background: linear-gradient(rgba(5,7,12, .75), rgba(5, 7, 12,.75));
     color: #fff;
@@ -407,6 +429,7 @@ main .grid-conteinerCon{
 }
 
 button a{
+    
     color: #fff;
 }
 
@@ -425,17 +448,24 @@ textarea::placeholder{color: #fff;}
 
 /*BOTONES*/
 .botones .btn{
+    text-decoration: none;
     background: #fbff00;
-    padding: 15px 35px;
     display: inline-block;
 }
 
 .btn a{
+    font-size: 10px;
     color: #000;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: #bd0f0f;
 }
 
 
 .boton{
+    text-decoration: none;
      display: flex;
      margin: 10px 0;
      justify-content: center;
@@ -447,9 +477,8 @@ textarea::placeholder{color: #fff;}
         text-align: center;
         text-align: center;
         width: 150px;
-        padding: 6px 15px;
         border-radius: 10px;
-    
+        text-decoration: none;
 }
 /*CIERRE DE BOTONES*/
 
@@ -486,7 +515,7 @@ textarea::placeholder{color: #fff;}
 /* SECCION 1*/
 .titleSN{
     text-align: center;
-    padding-top: 20%;
+    padding-top: 15%;
 }
 
 .titleSN h1{
@@ -587,13 +616,6 @@ textarea::placeholder{color: #fff;}
 
 
 
-
-
-
-
-
-
-
 /*PIE DE PAGINA*/
 
 .footer{
@@ -665,11 +687,11 @@ textarea::placeholder{color: #fff;}
     background: #2c2c2c;
 }
 
-button a{
+.btnFoot button a{
     color: #fff;
 }
 
-button a:hover{
+.btnFoot button a:hover{
     color: #fff022;
 }
 
@@ -758,5 +780,557 @@ button a:hover{
 
 
 
+
+
+
+
+
+
 /*RESPONSIVE*/
+
+/*Mobiles*/
+@media screen and (min-width:0px) and (max-width:360px) {
+
+    *{box-sizing: border-box;}
+
+    
+    /*seccion1 - home*/
+
+    .conteinerSeccion{
+        display: block;
+        padding-top: 20%;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .conteinerSeccion .title h1{
+        font-size: 16px;
+    }
+
+    
+    .conteinerSeccion .subTitle p{
+        padding: 10px 20px;
+        font-size: 40px;
+    }
+
+    
+    /*seccion2 - aprende*/
+
+
+    .aprende{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .row-aprende{
+       display:grid;
+    }
+
+    .row-aprende ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 15px;
+    }
+
+    .row-aprende li p{
+        margin: 0px auto;
+    }
+
+
+    /*seccion3 - ubicacion*/
+ 
+
+    .ubi{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .ubi h3{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .ubi h2{
+        padding: 0;
+        font-size: 11px;
+    }
+
+    .ubicacion iframe{
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+
+    /*Footer*/
+
+
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+
+    .footerTitle h1{
+        font-size: 15px;
+    }
+
+    .footerTitle p{
+        padding:0 20px;
+    }
+
+    .grid-conteiner{
+        display: block;
+        height: auto;
+    }
+
+    .contactos{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .span{
+        font-size: 11px;
+    }
+
+
+    /*SECCION - CURSOS*/
+
+    .areaTest{
+        width: 100%;
+        height: auto;  
+        padding: 20px;
+    }
+
+    .areaTest img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+    }
+
+    .areaTest h3{
+        font-size: 16px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .list ul {
+        font-size: 10px;
+        padding: 10px;
+        margin: 0px auto;
+    }
+
+    .list h2{
+        font-size: 10px;
+    }
+
+    .list p{
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .botones .btn {
+       padding: 5px 10px;
+    }
+
+    /*Certificacion*/
+
+    .conteinerCer{
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+    }
+
+    .title2 h1{
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .subTitle2 p{
+        font-size: 13px;
+    }
+
+    .img2 img{
+        width: 300px;
+        height: 150px;
+    }
+
+}  
+
+/*Tablet*/
+@media screen and (min-width:361px) and (max-width:480px) {
+
+    /*seccion1 - home*/
+
+    .conteinerSeccion{
+        display: block;
+        padding-top: 20%;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .conteinerSeccion .title h1{
+        font-size: 16px;
+    }
+
+    
+    .conteinerSeccion .subTitle p{
+        padding: 10px 20px;
+        font-size: 40px;
+    }
+
+    
+    /*seccion2 - aprende*/
+
+
+    .aprende{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .row-aprende{
+       display:grid;
+    }
+
+    .row-aprende ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 15px;
+    }
+
+    .row-aprende li p{
+        margin: 0px auto;
+    }
+
+
+    /*seccion3 - ubicacion*/
+ 
+
+    .ubi{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .ubi h3{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .ubi h2{
+        padding: 0;
+        font-size: 11px;
+    }
+
+    .ubicacion iframe{
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+
+    /*Footer*/
+
+
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+
+    .footerTitle h1{
+        font-size: 15px;
+    }
+
+    .footerTitle p{
+        padding:0 20px;
+    }
+
+    .grid-conteiner{
+        display: block;
+        height: auto;
+    }
+
+    .contactos{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .span{
+        font-size: 11px;
+    }
+
+
+    /*SECCION - CURSOS*/
+
+    .areaTest{
+        width: 100%;
+        height: auto;  
+        padding: 20px;
+    }
+
+    .areaTest img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+    }
+
+    .areaTest h3{
+        font-size: 16px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .list ul {
+        font-size: 10px;
+        padding: 10px;
+        margin: 0px auto;
+    }
+
+    .list h2{
+        font-size: 10px;
+    }
+
+    .list p{
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .botones .btn {
+       padding: 5px 10px;
+    }
+
+    /*Certificacion*/
+
+    .conteinerCer{
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+    }
+
+    .title2 h1{
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .subTitle2 p{
+        font-size: 13px;
+    }
+
+    .img2 img{
+        width: 300px;
+        height: 150px;
+    }
+
+}
+
+/*MAC*/
+@media screen and (min-width:481px) and (max-width:768px) {
+    /*seccion1 - home*/
+
+    .conteinerSeccion{
+        display: block;
+        padding-top: 15%;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .conteinerSeccion .title h1{
+        font-size: 16px;
+    }
+
+    
+    .conteinerSeccion .subTitle p{
+        padding: 10px 20px;
+        font-size: 40px;
+    }
+
+    
+    /*seccion2 - aprende*/
+
+
+    .aprende{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .tituloAP h1{
+        padding:10px 20px;
+    }
+
+    .row-aprende li p{
+        padding: 10px;
+        margin: 0px auto;
+    }
+
+
+    /*seccion3 - ubicacion*/
+ 
+
+    .ubi{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .ubi h3{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .ubi h2{
+        padding: 0;
+        font-size: 11px;
+    }
+
+    .ubicacion iframe{
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+
+    /*Footer*/
+
+
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+
+    .footerTitle h1{
+        font-size: 15px;
+    }
+
+    .footerTitle p{
+        padding:0 20px;
+    }
+
+    .contactos{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .span{
+        font-size: 11px;
+    }
+}
+
+/*Monitores*/
+@media screen and (min-width:769px) and (max-width:960px) {
+    
+        
+    /*seccion1 - home*/
+
+    .conteinerSeccion{
+        display: block;
+        padding-top: 40%;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .conteinerSeccion .title h1{
+        font-size: 16px;
+    }
+
+    
+    .conteinerSeccion .subTitle p{
+        padding: 10px 20px;
+        font-size: 40px;
+    }
+
+    
+    /*seccion2 - aprende*/
+
+
+    .aprende{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .row-aprende ul{
+        gap: 10px;
+    }
+   
+    .row-aprende li p{
+        margin: 0px auto;
+    }
+
+
+    /*seccion3 - ubicacion*/
+ 
+
+    .ubi{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .ubi h3{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .ubi h2{
+        padding: 0;
+        font-size: 11px;
+    }
+
+    .ubicacion iframe{
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+
+    /*Footer*/
+
+
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+
+    .footerTitle h1{
+        font-size: 15px;
+    }
+
+    .footerTitle p{
+        padding:0 20px;
+    }
+
+    .contactos{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .span{
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
