@@ -28,63 +28,69 @@
 </head>
 <body>
 
-<!-- Barra de Navegacion - Sec.1 -->
+     <!-- Barra de Navegación -->
+     <header>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-
-    <div class="container-fluid">
-
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-menu">
-              <a href="#">
-                <img src="../assets/img/logo.avif" alt="Bootstrap" width="40" height="40" style="border-radius: 50%;">
-              </a>
+        <div class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    
+            <div class="container-fluid  navbar__flex">
+    
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-menu">
+                      <a href="#"> <!-- Logo --> 
+                        <img src="./assets/img/logo.avif" alt="Bootstrap" width="40" height="40" style="border-radius: 50%;">
+                      </a>
+                    </div>
+                </nav>
+    
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    
+                <span class="navbar-toggler-icon"></span>
+                
+              </button>
+    
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+                <!-- Nav -->
+    
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+                        <li class="nav-item">
+                            <a class="nav-link dashead" aria-current="page" href="#">Home</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./view/cursos.html">Cursos</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./view/prog.html">Programas a medida</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./view/form.html">Formulario de Inscripción</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./view/sobrenos.html">Sobre Nosotros</a>
+                        </li>
+                        
+                    </ul> 
+                <!-- buscador -->
+                
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                            <button class="btn btn-outline-warning me-2" type="button"><i class='bx bx-search'></i></button>
+                        </form>
+                        
+              </div>
             </div>
-          </nav>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-
-        <span class="navbar-toggler-icon"></span>
+    
+        </div>
+    
+    </header>
         
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../view/cursos.html">Cursos</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../view/prog.html">Programas a medida</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../view/form.html">Formulario de Inscripción</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link dashead" aria-current="page" href="#">Sobre Nosotros</a>
-            </li>
-            
-            
-
-        </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
-                    <button class="btn btn-outline-warning me-2" type="button"><i class='bx bx-search'></i></button>
-                </form>
-      </div>
-    </div>
-
-  </nav>
-
-<!-- Cierre de Barra -->
+    <!-- Cierre de Barra -->
 
 
 <!-- SOBRE NOSOTROS -->
