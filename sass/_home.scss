@@ -1,0 +1,165 @@
+/*HOME*/
+.conteinerSeccion {
+    background:$bgTr, url(../assets/img/big-ben.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: $vw;
+    height: 100vh;
+    border-right: $borderLine;
+    border-bottom: $borderLine;
+
+
+
+    .homeItems{
+        
+        color: $textB;
+
+        .title{
+            p{
+                padding: 0;
+                font-size: 14px;
+                margin: 0; 
+            }
+           
+        }
+    
+    }
+
+     .subTitle{
+            h1{
+               font-size: $titulorem3;
+               padding: 10px;
+            }
+            
+        }
+
+        .boton{
+            a{
+                background: $btn;
+                color: $textA;
+                padding: 5px 30px;
+                border-radius: 6px;
+                text-decoration: none;
+            }
+        }
+
+}
+
+/*Slider*/
+
+.conteiner-slider{
+border-bottom: $borderLine;
+border-left: $borderLine;
+}
+
+
+/*Ubicacion*/
+
+.ubi{
+width: $vw;
+height: auto;
+background: $bg;
+color: $textB;
+padding: 30px;
+border-right:$borderLine;
+border-bottom: $borderLine;
+
+
+.ubiItems{
+    text-align: center;
+    
+    h1{
+        font-size: $titulo1;
+        letter-spacing: 5px;
+    }
+
+    h2{
+        padding: 10px;
+    }
+
+    p{
+        color: $color;
+        font-size:$texto1;
+        padding: 20px;
+    }
+
+}
+
+.ubicacion{
+    display: flex;
+    padding: 20px;
+    
+    iframe{
+        margin: 0 auto;
+    }
+}
+
+}
+
+
+/*Seccion 4 - Info*/
+
+section.aprende{
+width: $vw;
+height: auto;
+padding: 20px;
+background: $bg;
+color: $textB;
+border-left:$borderLine;
+border-bottom: $borderLine;
+
+    .tituloAP{
+        text-align: center;
+        
+        h1{
+            font-size: $titulorem2;
+            padding: 10px;
+        }
+
+        span{
+            color: $btn;
+        }   
+
+        
+    }
+
+
+    .row-aprende{
+        width: $vw;
+        height: auto;
+        padding: 20px;
+        
+
+        ul{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+
+
+                li{
+                    width: 100px;
+                    text-align: center;
+                    padding: 10px;
+
+                        i{
+                            padding: 6px;
+                            border-radius: 50%;
+                            background: $btn;
+                            color: $textA;
+                        }
+
+                        p{
+                            padding: 5px;
+                        }
+                }
+        }
+    }
+}
+
+@import 'footer';
+   

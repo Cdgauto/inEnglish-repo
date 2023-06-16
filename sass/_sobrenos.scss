@@ -1,0 +1,111 @@
+.conteinerSN{
+    width: $vw;
+    height: $hvh;
+    background: $bgTr, url(../assets/img/ukcity.jpg);
+    color: $textB;
+    border-right: $borderLine;
+    border-bottom: $borderLine;
+
+        .titleSN{
+            text-align: center;
+            
+            .items{
+              padding-top:15%;
+            }
+
+
+            h1{
+                font-size: $titulo3;
+                
+            }
+            p{
+                font-size: $titulorem3;
+            }
+        }
+
+}
+
+.historia{
+    width: $vw;
+    height: $ha;
+    background: $bg;
+    border-left: $borderLine;
+    font-size: $texto3;
+    color: $textB;
+    text-align: center;
+    padding: 10px;
+    
+        .historiaContent{
+            padding: 22px;
+
+             .titleSN1{
+                h1{
+                    color: $colorText;
+                    padding: 10px;
+                }
+
+                p{
+                    padding: 0 50px;
+                   
+                }
+
+                h2{
+                    font-size: $titulo1
+                }
+             }
+        }
+
+
+        .grid-historia{
+            width: $vw;
+            height: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+
+                .grid-his1{
+                    display: grid;
+                    justify-items: center;
+                    
+                    
+                    
+                    h1{
+                        color: $colorText;
+                        padding: 5px;
+                    }
+
+                    p{
+                        text-align: center;
+                    }
+
+
+                    ul{
+                        text-align: start;
+                        
+                    }
+
+
+                }
+
+        }
+
+        .grid-his2{
+           
+
+            h1{
+                color: $colorText;
+                width: auto;
+                height: 20px;
+            }
+
+            p{
+                text-align: start;
+                line-height: 30px;    
+
+            }
+
+        }
+
+
+
+}

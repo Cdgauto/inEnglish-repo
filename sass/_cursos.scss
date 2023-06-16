@@ -1,0 +1,98 @@
+
+
+section{
+    .areaTest{
+        width: $vw;
+        height: $ha;
+        padding: 10px;
+        padding: 10%;
+        background: $bg;
+        color: $textB;
+        text-align: center;
+        border-right:$borderLine;
+        border-bottom:$borderLine;
+
+        img{
+            width: 150px;
+            height: 100;
+        }
+
+        h1{
+            font-size: 18px;
+            letter-spacing: 5px;
+            padding: 5px;
+        }
+
+        .list{
+            ul{
+                padding: 20px;
+            }
+
+            h2{
+                font-size: 16px;
+            }
+
+            p{
+                padding: 15px;
+
+                span{
+                    color: $btn;
+                }
+                
+            }
+        }
+
+        .botones{
+            .btn{
+                a{
+                    background: $btn;
+                    color: $textA;
+                    text-decoration: none;
+                    border-radius: 6px;
+                    padding: 5px 15px;
+                }
+            }
+        }
+
+    }
+}
+
+section{
+    .conteinerCer{
+        width: $vw;
+        height: $ha;
+        padding: 20px;
+        background: $bg;
+        color: $textB;
+        border-left:$borderLine;
+        border-bottom:$borderLine;
+
+        h2{
+            font-size: 16px;
+            color: $color;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .title2{
+            
+            text-align: center;
+
+            h1{
+                font-size: 2rem;
+            }
+        }
+
+        .img2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+
+            img{
+                width: 500px;
+                border-radius:8px;
+            }
+        }
+    }
+}

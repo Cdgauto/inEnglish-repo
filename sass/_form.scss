@@ -1,0 +1,116 @@
+section{
+    .areaForm{
+        width: $vw;
+        height: $hvh;
+        background: $bg;
+        color: $textB;
+        text-align: center;
+        padding-top: 15%;
+        border-right: $borderLine;
+        border-bottom: $borderLine;
+
+
+        .image{
+            img{
+                width: 170px;
+                padding: 10px;
+            }
+        }
+
+        .title3{
+            h1{
+                font-size: $texto3;
+                padding: 5px;
+                letter-spacing: 4px;
+            }
+
+            .subTitle3{
+                p{
+                    padding:0 200px;
+                }
+            }
+
+        }
+
+        .botones{
+            .btn{
+                a{
+                    background: $btn;
+                    color: $textA;
+                    text-decoration: none;
+                    padding: 5px 25px;
+                    border-radius: 6px;
+                }
+            }
+        }
+        
+    }
+}
+
+.conteinerCon{
+    width: $vw;
+    height: $hvh;
+    background: $bgTr, url(../assets/img/london_skyline.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-left: $borderLine;
+    
+
+    .titleCon{
+        color: $textB;
+        text-align: center;
+
+        h1{
+            padding:100px 0px 10px 0px;
+            font-size: $titulo3;
+            letter-spacing: 4px;
+        }
+    }
+
+    .grid-conteinerCon{
+
+        .contacto{
+            width: $vw;
+            display: grid;
+            justify-items: center;
+            gap: 5px;
+            
+                input{
+                    width: $win;
+                    background: $bgTr;
+                    color: $textB;
+                    border-style: none;
+                    padding: 10px;
+                    font-size: $texto1;
+                }
+
+                textarea{
+                    width: $win;
+                    background: $bgTr;
+                    color: $textB;
+                    border-style: none;
+                    padding: 10px;
+                    font-size: $texto1;
+                }
+                
+                .btnFoot{
+                    button{
+                        width: $win;
+                        background: $bgTr;
+                        border-style: none;
+                        padding: 10px;
+                        font-size: $texto1;
+                        
+                        a{
+                            text-decoration: none;
+                            color: $textB;
+                        }
+                    }
+                }
+                
+        }
+
+
+    }
+}

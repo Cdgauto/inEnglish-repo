@@ -1,5 +1,7 @@
+/*Imports pargials*/
 /*Variables*/
 /*Width*/
+/*Height*/
 /*Colores*/
 /*Textos/size*/
 /*HOME*/
@@ -121,12 +123,406 @@ section.aprende .row-aprende ul li p {
   padding: 5px;
 }
 
-/*Footer*/
 .footer {
   width: 100%;
   height: auto;
   background: #111;
   color: #fff;
+  border-top: 3px solid #fff022;
+  border-right: 3px solid #fff022;
+}
+.footer .footerTitle {
+  text-align: center;
+}
+.footer .footerTitle h1 {
+  font-size: 22px;
+  letter-spacing: 5px;
+  padding: 15px;
+}
+.footer .footerTitle p {
+  padding: 5px;
+}
+.footer div.grid-conteiner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.footer div.grid-conteiner .mensajes {
+  display: grid;
+  justify-items: center;
+  padding: 20px;
+}
+.footer div.grid-conteiner .mensajes input {
+  margin: 5px;
+  padding: 10px;
+  font-size: 12px;
+  width: 320px;
+  background: #2b2a2a;
+  border-radius: 4px;
+  border-style: none;
+}
+.footer div.grid-conteiner .mensajes textarea {
+  padding: 10px;
+  width: 320px;
+  background: #2b2a2a;
+  font-size: 12px;
+  border-radius: 4px;
+  border-style: none;
+}
+.footer div.grid-conteiner .mensajes div.btnFoot {
+  margin: 5px 0;
+}
+.footer div.grid-conteiner .mensajes div.btnFoot button {
+  width: 320px;
+  background: #2b2a2a;
+  border: none;
+  padding: 5px;
+}
+.footer div.grid-conteiner .mensajes div.btnFoot button a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+.footer div.contactos {
+  padding: 20px;
+  text-align: center;
+}
+.footer div.contactos .textContactos ul li {
+  padding: 5px;
+}
+.footer div.contactos .redes {
+  display: grid;
+  gap: 10px;
+}
+.footer div.contactos .redes i {
+  padding: 5px;
+}
+.footer div.contactos .redes a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer div.contactos .redes li:hover {
+  color: #fff022;
+}
+.footer div.contactos .redes a:hover {
+  color: #fff022;
+}
+.footer div.span {
+  width: 100%;
+  background: #2b2a2a;
+  text-align: center;
+  padding: 10px;
+}
+
+section .areaTest {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  padding: 10%;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  border-right: 3px solid #fff022;
+  border-bottom: 3px solid #fff022;
+}
+section .areaTest img {
+  width: 150px;
+  height: 100;
+}
+section .areaTest h1 {
+  font-size: 18px;
+  letter-spacing: 5px;
+  padding: 5px;
+}
+section .areaTest .list ul {
+  padding: 20px;
+}
+section .areaTest .list h2 {
+  font-size: 16px;
+}
+section .areaTest .list p {
+  padding: 15px;
+}
+section .areaTest .list p span {
+  color: #fff022;
+}
+section .areaTest .botones .btn a {
+  background: #fff022;
+  color: #000;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 5px 15px;
+}
+
+section .conteinerCer {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background: #111;
+  color: #fff;
+  border-left: 3px solid #fff022;
+  border-bottom: 3px solid #fff022;
+}
+section .conteinerCer h2 {
+  font-size: 16px;
+  color: #353333;
+  text-align: center;
+  padding: 15px;
+}
+section .conteinerCer .title2 {
+  text-align: center;
+}
+section .conteinerCer .title2 h1 {
+  font-size: 2rem;
+}
+section .conteinerCer .img2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+section .conteinerCer .img2 img {
+  width: 500px;
+  border-radius: 8px;
+}
+
+section .prog {
+  width: 100%;
+  height: auto;
+  background: #111;
+  color: #fff;
+  padding: 20px;
+  border-left: 3px solid #fff022;
+  border-bottom: 3px solid #fff022;
+}
+section .prog .titleProg {
+  text-align: center;
+}
+section .prog .titleProg h1 {
+  padding: 10px;
+  font-size: 2rem;
+  color: #fff;
+}
+section .prog .columns {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  font-size: 16px;
+}
+section .prog .columns h2 {
+  color: #fff022;
+}
+section h1 {
+  font-size: 16px;
+  text-align: center;
+}
+section .column-2 {
+  text-align: center;
+  padding: 20px;
+}
+section .column-2 h2 {
+  padding: 10px;
+}
+section .column-3 h2 {
+  text-align: center;
+  padding: 20px;
+}
+section .column-3 ul {
+  padding: 20px;
+}
+section .column-3 ul li {
+  font-size: 18px;
+  margin: 0 auto;
+  width: 50%;
+  padding: 10px;
+}
+section .column-3 ul li span {
+  color: #fff022;
+}
+section .row ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  text-align: center;
+}
+section .row ul li {
+  width: 120px;
+  padding: 10px;
+}
+section .row ul li i {
+  background: #fff022;
+  color: #000;
+  border-radius: 50%;
+  padding: 5px;
+}
+section .row ul li p {
+  padding: 10px;
+  text-align: center;
+}
+
+section .areaForm {
+  width: 100%;
+  height: 100vh;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding-top: 15%;
+  border-right: 3px solid #fff022;
+  border-bottom: 3px solid #fff022;
+}
+section .areaForm .image img {
+  width: 170px;
+  padding: 10px;
+}
+section .areaForm .title3 h1 {
+  font-size: 18px;
+  padding: 5px;
+  letter-spacing: 4px;
+}
+section .areaForm .title3 .subTitle3 p {
+  padding: 0 200px;
+}
+section .areaForm .botones .btn a {
+  background: #fff022;
+  color: #000;
+  text-decoration: none;
+  padding: 5px 25px;
+  border-radius: 6px;
+}
+
+.conteinerCon {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../assets/img/london_skyline.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  border-left: 3px solid #fff022;
+}
+.conteinerCon .titleCon {
+  color: #fff;
+  text-align: center;
+}
+.conteinerCon .titleCon h1 {
+  padding: 100px 0px 10px 0px;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+.conteinerCon .grid-conteinerCon .contacto {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  gap: 5px;
+}
+.conteinerCon .grid-conteinerCon .contacto input {
+  width: 320px;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+  color: #fff;
+  border-style: none;
+  padding: 10px;
+  font-size: 12px;
+}
+.conteinerCon .grid-conteinerCon .contacto textarea {
+  width: 320px;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+  color: #fff;
+  border-style: none;
+  padding: 10px;
+  font-size: 12px;
+}
+.conteinerCon .grid-conteinerCon .contacto .btnFoot button {
+  width: 320px;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+  border-style: none;
+  padding: 10px;
+  font-size: 12px;
+}
+.conteinerCon .grid-conteinerCon .contacto .btnFoot button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.conteinerSN {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../assets/img/ukcity.jpg);
+  color: #fff;
+  border-right: 3px solid #fff022;
+  border-bottom: 3px solid #fff022;
+}
+.conteinerSN .titleSN {
+  text-align: center;
+}
+.conteinerSN .titleSN .items {
+  padding-top: 15%;
+}
+.conteinerSN .titleSN h1 {
+  font-size: 20px;
+}
+.conteinerSN .titleSN p {
+  font-size: 3rem;
+}
+
+.historia {
+  width: 100%;
+  height: auto;
+  background: #111;
+  border-left: 3px solid #fff022;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+.historia .historiaContent {
+  padding: 22px;
+}
+.historia .historiaContent .titleSN1 h1 {
+  color: #fff022;
+  padding: 10px;
+}
+.historia .historiaContent .titleSN1 p {
+  padding: 0 50px;
+}
+.historia .historiaContent .titleSN1 h2 {
+  font-size: 16px;
+}
+.historia .grid-historia {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.historia .grid-historia .grid-his1 {
+  display: grid;
+  justify-items: center;
+}
+.historia .grid-historia .grid-his1 h1 {
+  color: #fff022;
+  padding: 5px;
+}
+.historia .grid-historia .grid-his1 p {
+  text-align: center;
+}
+.historia .grid-historia .grid-his1 ul {
+  text-align: start;
+}
+.historia .grid-his2 h1 {
+  color: #fff022;
+  width: auto;
+  height: 20px;
+}
+.historia .grid-his2 p {
+  text-align: start;
+  line-height: 30px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background: #111;
+  color: #fff;
+  border-top: 3px solid #fff022;
   border-right: 3px solid #fff022;
 }
 .footer .footerTitle {

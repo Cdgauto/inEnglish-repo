@@ -1,0 +1,116 @@
+.footer{
+    width: $vw;
+    height: auto;
+    background: $bg;
+    color:$textB;
+    border-top: $borderLine;
+    border-right: $borderLine;
+
+    .footerTitle{
+        text-align: center;
+
+        h1{
+            font-size: $titulo4;
+            letter-spacing: 5px;
+            padding: 15px;
+        }
+
+        p{
+            padding: 5px;
+        }
+    }
+
+    div.grid-conteiner{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+
+            .mensajes{
+                display: grid;
+                justify-items: center;
+                padding: 20px;
+
+                input{
+                   margin: 5px;
+                   padding: 10px;
+                   font-size: $texto1;
+                   width: $win;
+                   background: $backg;
+                   border-radius: 4px;
+                   border-style: none;
+                }
+
+                textarea{
+                    padding: 10px;
+                    width: $wte;
+                    background: $backg;
+                    font-size: $texto1;
+                    border-radius: 4px;
+                    border-style: none;
+                }
+
+                div.btnFoot{
+                    margin: 5px 0;
+                    
+                    button{
+                        width: $win;
+                        background: $backg;
+                        border: none;
+                        padding: 5px;    
+
+                        a{
+                            
+                            font-size: $texto2;
+                            color: $textB;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+    }
+
+    div.contactos{      
+        padding: 20px;
+        text-align: center;
+
+        .textContactos{
+            ul{
+                li{
+                    padding: 5px;
+                }
+            }
+        }
+
+        .redes{
+           display: grid;
+           gap: 10px;
+          
+            i{
+                padding: 5px;
+            }
+
+            a{
+                color: $textB;
+                text-decoration: none;
+            }
+
+            li:hover{
+               color:$btn;
+            }
+
+            a:hover{
+                color:$btn;
+             }
+
+        }
+
+        
+
+    }
+        div.span{
+            width: $vw;
+            background: $backg;
+            text-align: center;
+            padding: 10px;
+        }
+    }        
