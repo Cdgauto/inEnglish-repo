@@ -1,9 +1,16 @@
+@charset "UTF-8";
 /*Imports pargials*/
 /*Variables*/
 /*Width*/
 /*Height*/
 /*Colores*/
 /*Textos/size*/
+/*Titulos px/rem */
+/*Views*/
+* {
+  box-sizing: border-box;
+}
+
 /*HOME*/
 .conteinerSeccion {
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../assets/img/big-ben.png) no-repeat;
@@ -150,7 +157,7 @@ section.aprende .row-aprende ul li p {
 .footer div.grid-conteiner .mensajes {
   display: grid;
   justify-items: center;
-  padding: 20px;
+  padding: 15px;
 }
 .footer div.grid-conteiner .mensajes input {
   margin: 5px;
@@ -380,7 +387,8 @@ section .areaForm .title3 h1 {
   letter-spacing: 4px;
 }
 section .areaForm .title3 .subTitle3 p {
-  padding: 0 200px;
+  font-size: 24px;
+  padding: 0 30px;
 }
 section .areaForm .botones .btn a {
   background: #fff022;
@@ -477,8 +485,8 @@ section .areaForm .botones .btn a {
   padding: 22px;
 }
 .historia .historiaContent .titleSN1 h1 {
+  font-size: 20px;
   color: #fff022;
-  padding: 10px;
 }
 .historia .historiaContent .titleSN1 p {
   padding: 0 50px;
@@ -491,7 +499,7 @@ section .areaForm .botones .btn a {
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 10px;
 }
 .historia .grid-historia .grid-his1 {
   display: grid;
@@ -499,16 +507,20 @@ section .areaForm .botones .btn a {
 }
 .historia .grid-historia .grid-his1 h1 {
   color: #fff022;
+  font-size: 20px;
   padding: 5px;
 }
 .historia .grid-historia .grid-his1 p {
   text-align: center;
+  padding: 0 20px;
+  font-size: 18px;
 }
 .historia .grid-historia .grid-his1 ul {
   text-align: start;
 }
 .historia .grid-his2 h1 {
   color: #fff022;
+  font-size: 20px;
   width: auto;
   height: 20px;
 }
@@ -544,7 +556,7 @@ section .areaForm .botones .btn a {
 .footer div.grid-conteiner .mensajes {
   display: grid;
   justify-items: center;
-  padding: 20px;
+  padding: 15px;
 }
 .footer div.grid-conteiner .mensajes input {
   margin: 5px;
@@ -606,4 +618,845 @@ section .areaForm .botones .btn a {
   background: #2b2a2a;
   text-align: center;
   padding: 10px;
+}
+
+/*Responsive*/
+@media screen and (min-width: 0px) and (max-width: 359px) {
+  .conteinerSeccion .homeItems .title p {
+    font-size: 10px;
+  }
+  .conteinerSeccion .homeItems .subTitle h1 {
+    font-size: 24px;
+    padding: 10px 30px;
+  }
+  .conteinerSeccion .homeItems .boton {
+    font-size: 10px;
+  }
+  section.ubi .ubiItems p {
+    font-size: 10px;
+    padding: 0;
+  }
+  section.ubi .ubicacion iframe {
+    width: 100%;
+  }
+  section.aprende .tituloAP h1 {
+    font-size: 2rem;
+  }
+  section.aprende .row-aprende ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-content: center;
+  }
+  section.aprende .row-aprende ul p {
+    font-size: 12px;
+  }
+  footer.footer .footerTitle h1 {
+    font-size: 20px;
+  }
+  footer.footer .footerTitle p {
+    font-size: 18px;
+    padding: 0 40px;
+  }
+  footer.footer .grid-conteiner {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  /*CURSOS*/
+  section .conteinerCer {
+    padding: 50px;
+  }
+  section .conteinerCer .title2 h1 {
+    font-size: 22px;
+  }
+  section .conteinerCer .img2 img {
+    width: 100%;
+  }
+  /*Programas a medidas*/
+  section .prog .titleProg h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  section .prog .columns {
+    display: block;
+    text-align: center;
+  }
+  section .prog .columns .colum1 h2 {
+    font-size: 20px;
+  }
+  section .prog .columns .colum1 ul li {
+    text-align: left;
+  }
+  section .prog .columns .colum2 h2 {
+    font-size: 20px;
+  }
+  section .prog .columns .colum2 ul li {
+    text-align: left;
+  }
+  section .prog .columns .colum3 h2 {
+    font-size: 20px;
+  }
+  section .prog .columns .colum3 ul li {
+    text-align: left;
+  }
+  section .prog .column-3 ul li {
+    margin: 0;
+    width: 100%;
+  }
+  section .prog .row ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  /*Formulario de inscripción*/
+  section .areaForm {
+    width: 100%;
+    height: 100vh;
+  }
+  section .areaForm .image .uk {
+    width: 150px;
+  }
+  section .areaForm .title3 h1 {
+    font-size: 16px;
+  }
+  section .areaForm .title3 .subTitle3 p {
+    font-size: 12px;
+    padding: 0 30px;
+  }
+  section .areaForm .title3 .botones .btn a {
+    font-size: 12px;
+  }
+  section.conteinerCon {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+  section.conteinerCon .titleCon h1 {
+    font-size: 20px;
+    padding: 5% 10px 0 0;
+  }
+  section.conteinerCon .titleCon p {
+    padding: 10px;
+  }
+  /*SOBRE NOSOTROS*/
+  section.conteinerSN .titleSN .items {
+    padding-top: 40%;
+  }
+  section.conteinerSN .titleSN .items h1 {
+    font-size: 12px;
+  }
+  section.conteinerSN .titleSN .items p {
+    font-size: 22px;
+  }
+  section.historia .historiaContent .titleSN1 h1 {
+    font-size: 2rem;
+  }
+  section.historia .historiaContent .titleSN1 p {
+    font-size: 16px;
+  }
+  section.historia .grid-historia {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  section.historia .grid-historia .grid-his1 ul {
+    font-size: 18px;
+  }
+  section.historia .grid-historia .grid-his1 ul li {
+    padding: 5px;
+  }
+  section.historia .grid-historia .grid-his2 p {
+    padding-left: 32px;
+    text-align: left;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 479px) {
+  .conteinerSeccion .homeItems .title p {
+    font-size: 16px;
+  }
+  .conteinerSeccion .homeItems .subTitle h1 {
+    font-size: 2rem;
+    padding: 10px 30px;
+  }
+  .conteinerSeccion .homeItems .boton a {
+    font-size: 12px;
+  }
+  section.ubi .ubicacion iframe {
+    width: 100%;
+  }
+  section.aprende .tituloAP h1 {
+    font-size: 2rem;
+  }
+  section.aprende .row-aprende ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-content: center;
+  }
+  section.aprende .row-aprende ul p {
+    font-size: 12px;
+  }
+  footer.footer .footerTitle p {
+    padding: 0 20px;
+  }
+  footer.footer .grid-conteiner {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  footer.footer .mensajes textarea {
+    margin-top: 5px;
+  }
+  /*CURSOS*/
+  section .conteinerCer {
+    padding: 50px;
+  }
+  section .conteinerCer .title2 h1 {
+    font-size: 2rem;
+  }
+  section .conteinerCer .img2 img {
+    width: 100%;
+  }
+  /*Programas a medidas*/
+  section .prog .titleProg h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  section .prog .columns {
+    display: block;
+    text-align: center;
+  }
+  section .prog .columns .colum1 h2 {
+    font-size: 20px;
+  }
+  section .prog .columns .colum1 ul li {
+    text-align: center;
+  }
+  section .prog .columns .colum2 h2 {
+    font-size: 20px;
+  }
+  section .prog .columns .colum2 ul li {
+    text-align: center;
+  }
+  section .prog .columns .colum3 h2 {
+    font-size: 20px;
+  }
+  section .prog .columns .colum3 ul li {
+    text-align: center;
+  }
+  section .prog .column-3 ul li {
+    margin: 0;
+    width: 100%;
+  }
+  section .prog .row ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+  }
+  /*Formulario de inscripción*/
+  section .areaForm {
+    width: 100%;
+    height: 100vh;
+  }
+  section .areaForm .image .uk {
+    width: 150px;
+  }
+  section .areaForm .title3 h1 {
+    font-size: 16px;
+  }
+  section .areaForm .title3 .subTitle3 p {
+    font-size: 18px;
+    padding: 0 30px;
+  }
+  section .areaForm .title3 .botones .btn a {
+    font-size: 12px;
+  }
+  section.conteinerCon {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+  section.conteinerCon .titleCon h1 {
+    font-size: 20px;
+    padding: 5% 10px 0 0;
+  }
+  section.conteinerCon .titleCon p {
+    padding: 10px;
+  }
+  /*SOBRE NOSOTROS*/
+  section.conteinerSN .titleSN .items {
+    padding-top: 40%;
+  }
+  section.conteinerSN .titleSN .items h1 {
+    font-size: 12px;
+  }
+  section.conteinerSN .titleSN .items p {
+    font-size: 22px;
+  }
+  section.historia .historiaContent .titleSN1 h1 {
+    font-size: 2rem;
+  }
+  section.historia .historiaContent .titleSN1 p {
+    font-size: 16px;
+  }
+  section.historia .grid-historia {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  section.historia .grid-historia .grid-his1 ul {
+    font-size: 18px;
+  }
+  section.historia .grid-historia .grid-his1 ul li {
+    padding: 5px;
+  }
+  section.historia .grid-historia .grid-his2 p {
+    padding-left: 32px;
+    text-align: left;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .conteinerSeccion .homeItems .title p {
+    font-size: 12px;
+  }
+  .conteinerSeccion .homeItems .subTitle h1 {
+    font-size: 1rem;
+  }
+  .conteinerSeccion .homeItems .boton a {
+    font-size: 10px;
+  }
+  section.aprende {
+    width: 100%;
+    height: auto;
+  }
+  section.aprende .tituloAP h1 {
+    font-size: 2rem;
+  }
+  section.aprende .row-aprende ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-content: center;
+  }
+  section.aprende .row-aprende ul li p {
+    text-align: center;
+    font-size: 12px;
+  }
+  footer.footer .footerTitle h1 {
+    font-size: 18px;
+  }
+  footer.footer .footerTitle p {
+    font-size: 16px;
+    padding: 0 40px;
+  }
+  footer.footer .grid-conteiner {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px 0;
+  }
+  footer.footer .grid-conteiner .mensajes textarea {
+    margin-top: 5px;
+  }
+  footer.footer .grid-conteiner .contactos .textContactos h1 {
+    font-size: 2rem;
+  }
+  /*CURSOS*/
+  section .conteinerCer {
+    padding: 50px;
+  }
+  section .conteinerCer .title2 h1 {
+    font-size: 3rem;
+  }
+  section .conteinerCer .img2 img {
+    width: 100%;
+  }
+  /*Programas a medidas*/
+  section .prog .titleProg h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  section .prog .columns {
+    text-align: center;
+  }
+  section .prog .columns .colum1 h2 {
+    font-size: 20px;
+  }
+  section .prog .columns .colum1 ul li {
+    text-align: left;
+  }
+  section .prog .columns .colum2 h2 {
+    font-size: 20px;
+  }
+  section .prog .columns .colum2 ul li {
+    text-align: left;
+  }
+  section .prog .columns .colum3 h2 {
+    font-size: 20px;
+  }
+  section .prog .columns .colum3 ul li {
+    text-align: left;
+  }
+  section .prog .column-3 ul li {
+    margin: 0;
+    width: 100%;
+  }
+  section .prog .row ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  /*Formulario de inscripción*/
+  section .areaForm {
+    width: 100%;
+    height: 100vh;
+  }
+  section .areaForm .image .uk {
+    width: 150px;
+  }
+  section .areaForm .title3 h1 {
+    font-size: 16px;
+  }
+  section .areaForm .title3 .subTitle3 p {
+    font-size: 16px;
+    padding: 0 30px;
+  }
+  section .areaForm .title3 .botones .btn a {
+    font-size: 12px;
+  }
+  section.conteinerCon {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+  section.conteinerCon .titleCon h1 {
+    font-size: 20px;
+    padding: 5% 10px 0 0;
+  }
+  section.conteinerCon .titleCon p {
+    padding: 10px;
+  }
+  /*SOBRE NOSOTROS*/
+  section.conteinerSN .titleSN .items {
+    padding-top: 40%;
+  }
+  section.conteinerSN .titleSN .items h1 {
+    font-size: 12px;
+  }
+  section.conteinerSN .titleSN .items p {
+    font-size: 22px;
+  }
+  section.historia .historiaContent .titleSN1 h1 {
+    font-size: 2rem;
+  }
+  section.historia .historiaContent .titleSN1 p {
+    font-size: 16px;
+  }
+  section.historia .grid-historia {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  section.historia .grid-historia .grid-his1 ul {
+    font-size: 18px;
+  }
+  section.historia .grid-historia .grid-his1 ul li {
+    padding: 5px;
+  }
+  section.historia .grid-historia .grid-his2 p {
+    padding-left: 32px;
+    text-align: left;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  .conteinerSeccion {
+    width: 100%;
+    height: 100vh;
+  }
+  .conteinerSeccion .homeItems .title p {
+    font-size: 18px;
+  }
+  .conteinerSeccion .homeItems .subTitle h1 {
+    font-size: 3rem;
+  }
+  .conteinerSeccion .homeItems .boton a {
+    font-size: 12px;
+  }
+  section.aprende .row-aprende ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  footer.footer .footerTitle h1 {
+    font-size: 3rem;
+  }
+  footer.footer .footerTitle p {
+    font-size: 22px;
+    padding: 0 40px;
+  }
+  footer.footer .grid-conteiner .mensajes input {
+    font-size: 16px;
+  }
+  footer.footer .grid-conteiner .mensajes textarea {
+    font-size: 16px;
+  }
+  /*CURSOS*/
+  section .areaTest img {
+    width: 300px;
+  }
+  section .areaTest h1 {
+    font-size: 22px;
+  }
+  section .areaTest .list {
+    font-size: 24px;
+  }
+  section .areaTest .botones .btn a {
+    font-size: 20px;
+  }
+  section .conteinerCer {
+    padding: 50px;
+  }
+  section .conteinerCer .title2 h1 {
+    font-size: 3rem;
+  }
+  section .conteinerCer .title2 .subTitle2 p {
+    font-size: 22px;
+    padding: 15px;
+  }
+  section .conteinerCer h2 {
+    font-size: 20px;
+  }
+  section .conteinerCer .img2 img {
+    width: 100%;
+  }
+  /*Programas a medidas*/
+  section .prog .titleProg h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  section .prog .columns {
+    text-align: center;
+  }
+  section .prog .columns .colum1 h2 {
+    font-size: 20px;
+  }
+  section .prog .columns .colum1 ul li {
+    text-align: left;
+  }
+  section .prog .columns .colum2 h2 {
+    font-size: 20px;
+  }
+  section .prog .columns .colum2 ul li {
+    text-align: left;
+  }
+  section .prog .columns .colum3 h2 {
+    font-size: 20px;
+  }
+  section .prog .columns .colum3 ul li {
+    text-align: left;
+  }
+  section .prog .column-3 ul li {
+    margin: 0;
+    width: 100%;
+  }
+  section .prog .row ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  /*Formulario de inscripción*/
+  section .areaForm {
+    width: 100%;
+    height: 100vh;
+  }
+  section .areaForm .image .uk {
+    width: 150px;
+  }
+  section .areaForm .title3 h1 {
+    font-size: 16px;
+  }
+  section .areaForm .title3 .subTitle3 p {
+    font-size: 18px;
+    padding: 0 30px;
+  }
+  section .areaForm .title3 .botones .btn a {
+    font-size: 12px;
+  }
+  section.conteinerCon {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+  section.conteinerCon .titleCon h1 {
+    font-size: 24px;
+    padding: 5% 10px 0 0;
+  }
+  section.conteinerCon .titleCon p {
+    padding: 0 40px;
+  }
+  /*SOBRE NOSOTROS*/
+  section.conteinerSN .titleSN .items {
+    padding-top: 25%;
+  }
+  section.conteinerSN .titleSN .items h1 {
+    font-size: 20px;
+  }
+  section.conteinerSN .titleSN .items p {
+    font-size: 3rem;
+  }
+  section.historia .historiaContent .titleSN1 h1 {
+    font-size: 2rem;
+  }
+  section.historia .historiaContent .titleSN1 p {
+    font-size: 16px;
+  }
+  section.historia .grid-historia {
+    width: 100%;
+    height: auto;
+  }
+  section.historia .grid-historia .grid-his1 ul {
+    font-size: 18px;
+  }
+  section.historia .grid-historia .grid-his1 ul li {
+    padding: 5px;
+  }
+  section.historia .grid-historia .grid-his2 p {
+    padding-left: 32px;
+    text-align: left;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 960px) and (max-width: 1023px) {
+  body {
+    box-sizing: border-box;
+  }
+  .conteinerSeccion {
+    width: 100%;
+    height: 100vh;
+  }
+  .conteinerSeccion .homeItems .title p {
+    font-size: 16px;
+  }
+  .conteinerSeccion .homeItems .subTitle h1 {
+    font-size: 3rem;
+    padding: 15px;
+  }
+  .conteinerSeccion .homeItems .boton a {
+    font-size: 16px;
+  }
+  .ubi .ubicacion iframe {
+    width: 90%;
+  }
+  section.aprende .row-aprende ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  footer.footer .footerTitle h1 {
+    font-size: 3rem;
+  }
+  footer.footer .footerTitle p {
+    font-size: 22px;
+    padding: 0 40px;
+  }
+  footer.footer .grid-conteiner .mensajes input {
+    font-size: 16px;
+  }
+  footer.footer .grid-conteiner .mensajes textarea {
+    font-size: 16px;
+  }
+  /*CURSOS*/
+  section .areaTest img {
+    width: 300px;
+  }
+  section .areaTest h1 {
+    font-size: 22px;
+  }
+  section .areaTest .list {
+    font-size: 24px;
+  }
+  section .areaTest .botones .btn a {
+    font-size: 20px;
+  }
+  section .conteinerCer {
+    padding: 50px;
+  }
+  section .conteinerCer .title2 h1 {
+    font-size: 3rem;
+  }
+  section .conteinerCer .title2 .subTitle2 p {
+    font-size: 22px;
+    padding: 15px;
+  }
+  section .conteinerCer h2 {
+    font-size: 20px;
+  }
+  section .conteinerCer .img2 img {
+    width: 100%;
+  }
+  /*Formulario de inscripción*/
+  section .areaForm {
+    width: 100%;
+    height: 100vh;
+  }
+  section .areaForm .image .uk {
+    width: 200px;
+  }
+  section .areaForm .title3 h1 {
+    font-size: 22px;
+  }
+  section .areaForm .title3 .subTitle3 p {
+    font-size: 22px;
+    padding: 0 30px;
+  }
+  section .areaForm .title3 .botones .btn a {
+    font-size: 20px;
+  }
+  section.conteinerCon {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+  section.conteinerCon .titleCon h1 {
+    font-size: 2rem;
+    padding: 10px 0 0 0;
+  }
+  section.conteinerCon .titleCon p {
+    font-size: 20px;
+    padding: 0 50px;
+  }
+  /*SOBRE NOSOTROS*/
+  section.conteinerSN .titleSN .items {
+    padding-top: 25%;
+  }
+  section.conteinerSN .titleSN .items h1 {
+    font-size: 20px;
+  }
+  section.conteinerSN .titleSN .items p {
+    font-size: 3rem;
+  }
+  section.historia .historiaContent .titleSN1 h1 {
+    font-size: 2rem;
+  }
+  section.historia .historiaContent .titleSN1 p {
+    font-size: 16px;
+  }
+  section.historia .grid-historia {
+    width: 100%;
+    height: auto;
+  }
+  section.historia .grid-historia .grid-his1 ul {
+    font-size: 18px;
+  }
+  section.historia .grid-historia .grid-his1 ul li {
+    padding: 5px;
+  }
+  section.historia .grid-historia .grid-his2 p {
+    padding-left: 32px;
+    text-align: left;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1328px) {
+  body {
+    box-sizing: border-box;
+  }
+  .conteinerSeccion {
+    width: 100%;
+    height: 100vh;
+  }
+  .conteinerSeccion .homeItems .title p {
+    font-size: 20px;
+  }
+  .conteinerSeccion .homeItems .subTitle h1 {
+    font-size: 3rem;
+    padding: 25px;
+  }
+  .conteinerSeccion .homeItems .boton a {
+    font-size: 16px;
+  }
+  .ubi .ubicacion iframe {
+    width: 90%;
+  }
+  section.aprende .row-aprende ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  footer.footer .footerTitle h1 {
+    font-size: 3rem;
+  }
+  footer.footer .footerTitle p {
+    font-size: 20px;
+  }
+  footer.footer .grid-conteiner .mensajes input {
+    font-size: 16px;
+  }
+  footer.footer .grid-conteiner .mensajes textarea {
+    font-size: 16px;
+  }
+  /*CURSOS*/
+  section .areaTest img {
+    width: 300px;
+  }
+  section .areaTest h1 {
+    font-size: 24px;
+  }
+  section .areaTest .list {
+    font-size: 24px;
+  }
+  section .areaTest .botones .btn a {
+    font-size: 24px;
+  }
+  section .conteinerCer {
+    padding: 50px;
+  }
+  section .conteinerCer .title2 h1 {
+    font-size: 3rem;
+  }
+  section .conteinerCer .title2 .subTitle2 p {
+    font-size: 22px;
+    padding: 15px;
+  }
+  section .conteinerCer h2 {
+    font-size: 20px;
+  }
+  section .conteinerCer .img2 img {
+    width: 70%;
+  }
+  /*Formulario de inscripción*/
+  section .areaForm {
+    width: 100%;
+    height: 100vh;
+  }
+  section .areaForm .image .uk {
+    width: 200px;
+  }
+  section .areaForm .title3 h1 {
+    font-size: 22px;
+    padding: 0 60px;
+  }
+  section .areaForm .title3 .subTitle3 p {
+    font-size: 22px;
+    padding: 0 30px;
+  }
+  section .areaForm .title3 .botones .btn a {
+    font-size: 20px;
+  }
+  section.conteinerCon {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+  section.conteinerCon .titleCon h1 {
+    font-size: 2rem;
+    padding: 10px 0 0 0;
+  }
+  section.conteinerCon .titleCon p {
+    font-size: 20px;
+    padding: 0 50px;
+  }
 }/*# sourceMappingURL=main.css.map */

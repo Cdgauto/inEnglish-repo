@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+
+
 /*HOME*/
 .conteinerSeccion {
     background:$bgTr, url(../assets/img/big-ben.png) no-repeat;
@@ -131,7 +136,7 @@ border-bottom: $borderLine;
 
     .row-aprende{
         width: $vw;
-        height: auto;
+        height: $ha;
         padding: 20px;
         
 

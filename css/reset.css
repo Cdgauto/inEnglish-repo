@@ -25,6 +25,7 @@ time, mark, audio, video {
 	font-family: 'Lato', sans-serif;
 	text-decoration: none;
 	list-style: none;
+	box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 

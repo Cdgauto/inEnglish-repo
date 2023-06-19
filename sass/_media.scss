@@ -1,0 +1,1776 @@
+@media screen and (min-width:0px) and (max-width:359px){
+
+    .conteinerSeccion{
+        .homeItems{
+            .title{
+                p{
+                    font-size: $texto;
+                }
+            }
+
+            .subTitle{
+                h1{
+                    font-size: $texto6;
+                    padding: 10px 30px;
+                }
+            }
+
+            .boton{
+                font-size: $texto;
+            }
+        }
+    }
+
+    section.ubi{
+
+        .ubiItems{
+            p{
+                font-size: $texto;
+                padding: 0;
+            }
+        }
+
+        .ubicacion{
+            iframe{
+                width: 100%;
+            }
+        }
+    }
+
+    section.aprende{
+
+        .tituloAP{
+            h1{
+                font-size: $titulorem2;
+            }
+        }
+
+        .row-aprende{
+            ul{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr;
+                justify-items: center;
+                align-content: center;
+
+                    p{
+                        font-size: $texto1;
+                    }
+            }
+        }
+        
+    }
+
+
+    footer.footer{
+
+        .footerTitle{
+            
+            h1{
+                font-size: $titulo3;
+            }
+            
+            p{
+                font-size: $titulo2;
+                padding: 0 40px;
+            }
+        }
+
+        .grid-conteiner{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+           
+            
+             
+        }
+    }
+
+
+
+
+    /*CURSOS*/
+
+    section{
+        .conteinerCer{
+            padding: 50px;
+
+            .title2{
+                h1{
+                    font-size: $texto5;
+                }
+            }
+
+            .img2{
+                img{
+                    width: 100%;
+                }
+            }
+
+
+        }
+    }
+
+
+
+
+
+
+    /*Programas a medidas*/
+
+    section{
+
+        .prog{
+            .titleProg{
+                h1{
+                    font-size: $titulo4;
+                    text-align: center;
+                }
+            }
+
+            .columns{
+                display: block;
+                text-align: center;
+
+                    .colum1{
+
+                        h2{
+                            font-size: $titulo3;
+                        }
+                        
+                        ul{
+                            li{
+                                text-align: left;
+                            }
+                        }
+                    }
+
+                    .colum2{
+
+                        h2{
+                            font-size: $titulo3;
+                        }
+
+                        ul{
+                            li{
+                                text-align: left;
+                            }
+                        }
+                    }
+
+
+                    .colum3{
+
+                        h2{
+                            font-size: $titulo3;
+                        }
+
+                        ul{
+                            li{
+                                text-align: left;
+                            }
+                        }
+                    }
+
+
+            }
+
+            .column-3{
+                ul{
+                    li{
+                        margin: 0;
+                        width: $vw;
+                    }
+                }
+            }
+
+
+            .row{
+                ul{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr;
+                }
+            }
+
+        }
+    }
+
+
+
+
+    /*Formulario de inscripción*/
+
+    section{
+        .areaForm{
+            width: $vw;
+            height: $hvh;
+
+
+            .image{
+                .uk{
+                    width: 150px;
+                }
+            }
+
+            .title3{
+
+                h1{
+                    font-size: $titulo1;
+                }
+
+                    .subTitle3{
+                        p{
+                            font-size: $texto1;
+                            padding:0 30px;
+                        }
+                    }
+
+                    .botones{
+                        .btn{
+                            a{
+                                font-size: $texto1;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+
+
+
+    section.conteinerCon{
+        width: $vw;
+        height: $ha;
+        padding: 15px;
+
+        .titleCon{
+            h1{
+                font-size: $texto4;
+                padding: 5% 10px 0 0;
+            }
+            
+            p{
+                padding: 10px;
+            }
+        }
+
+    }
+
+
+    /*SOBRE NOSOTROS*/
+
+    section.conteinerSN{
+        .titleSN{
+            .items{
+                padding-top: 40%;
+
+                h1{
+                    font-size: $texto1;
+                }
+                p{
+                    font-size: $texto5;
+                }
+            }
+        }
+    }
+
+    section.historia{
+
+        .historiaContent{
+            .titleSN1{
+                h1{
+                    font-size: $titulorem2  ;
+                }
+
+                p{
+                    font-size: $texto2;
+                }
+            }
+            
+        }
+
+        .grid-historia{
+            width: $vw;
+            height: $ha;
+            display: block;
+
+            .grid-his1{
+                ul{
+                    font-size: $texto3;
+
+                    li{
+                        padding: 5px;
+                    }
+                }
+            }
+
+            .grid-his2{
+                p{
+                    padding-left:32px;
+                    text-align: left;
+                    font-size: $texto3;  
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width:360px) and (max-width:479px){
+
+    .conteinerSeccion{
+        .homeItems{
+            .title{
+                p{
+                    font-size: $texto2;
+                }
+            }
+
+            .subTitle{
+                h1{
+                    font-size: $titulorem2;
+                    padding: 10px 30px;
+                }
+            }
+
+            .boton{
+                a{
+                    font-size: $texto1;
+                }
+            }
+        }
+    }
+
+    section.ubi{
+
+        .ubicacion{
+            iframe{
+                width: 100%;
+            }
+        }
+    }
+
+
+    section.aprende{
+
+        .tituloAP{
+            h1{
+                font-size: $titulorem2;
+            }
+        }
+
+        .row-aprende{
+            ul{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr;
+                justify-items: center;
+                align-content: center;
+
+                    p{
+                        font-size: $texto1;
+                    }
+            }
+        }
+    }
+
+
+    footer.footer{
+
+        .footerTitle{
+            p{
+                padding: 0 20px;
+            }
+        }
+
+        .grid-conteiner{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        .mensajes{
+
+            textarea{
+                margin-top: 5px;
+            }
+
+        }
+    }
+
+
+
+    /*CURSOS*/
+    section{
+        .conteinerCer{
+            padding: 50px;
+
+            .title2{
+                h1{
+                    font-size: $titulorem2;
+                }
+            }
+
+            .img2{
+                img{
+                    width: 100%;
+                }
+            }
+
+
+        }
+    }
+
+
+
+    /*Programas a medidas*/
+
+    section{
+
+        .prog{
+            .titleProg{
+                h1{
+                    font-size: $titulorem2;
+                    text-align: center;
+                }
+            }
+
+            .columns{
+                display: block;
+                text-align: center;
+
+                    .colum1{
+
+                        h2{
+                            font-size: $titulo3;
+                        }
+                        
+                        ul{
+                            li{
+                                text-align: center;
+                            }
+                        }
+                    }
+
+                    .colum2{
+
+                        h2{
+                            font-size: $titulo3;
+                        }
+
+                        ul{
+                            li{
+                                text-align: center;
+                            }
+                        }
+                    }
+
+
+                    .colum3{
+
+                        h2{
+                            font-size: $titulo3;
+                        }
+
+                        ul{
+                           
+                            li{
+                                
+                                text-align: center;
+                            }
+                        }
+                    }
+
+
+            }
+
+            .column-3{
+                ul{
+                    li{
+                        margin: 0;
+                        width: $vw;
+                    }
+                }
+            }
+
+
+            .row{
+                ul{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr;
+                    justify-items: center;
+                }
+            }
+
+        }
+    }
+
+
+     /*Formulario de inscripción*/
+
+     section{
+        .areaForm{
+            width: $vw;
+            height: $hvh;
+
+
+            .image{
+                .uk{
+                    width: 150px;
+                }
+            }
+
+            .title3{
+
+                h1{
+                    font-size: $titulo1;
+                }
+
+                    .subTitle3{
+                        p{
+                            font-size: $texto3;
+                            padding:0 30px;
+                        }
+                    }
+
+                    .botones{
+                        .btn{
+                            a{
+                                font-size: $texto1;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+
+
+
+    section.conteinerCon{
+        width: $vw;
+        height: $ha;
+        padding: 15px;
+
+        .titleCon{
+            h1{
+                font-size: $texto4;
+                padding: 5% 10px 0 0;
+            }
+            
+            p{
+                padding: 10px;
+            }
+        }
+
+    }
+
+    /*SOBRE NOSOTROS*/
+
+    section.conteinerSN{
+        .titleSN{
+            .items{
+                padding-top: 40%;
+
+                h1{
+                    font-size: $texto1;
+                }
+                p{
+                    font-size: $texto5;
+                }
+            }
+        }
+    }
+
+    section.historia{
+
+        .historiaContent{
+            .titleSN1{
+                h1{
+                    font-size: $titulorem2  ;
+                }
+
+                p{
+                    font-size: $texto2;
+                }
+            }
+            
+        }
+
+        .grid-historia{
+            width: $vw;
+            height: $ha;
+            display: block;
+
+            .grid-his1{
+                ul{
+                    font-size: $texto3;
+
+                    li{
+                        padding: 5px;
+                    }
+                }
+            }
+
+            .grid-his2{
+                p{
+                    padding-left:32px;
+                    text-align: left;
+                    font-size: $texto3;  
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width:480px) and (max-width:767px){
+
+    .conteinerSeccion{
+        
+            .homeItems{
+                .title{
+                    p{
+                        font-size: $texto1;
+                    }
+                }
+
+                .subTitle{
+                    h1{
+                        font-size: $titulorem1;
+                    }
+                }
+
+                .boton{
+                    a{
+                        font-size: $texto;
+                    }
+                }
+            }
+
+           
+
+    }
+
+    section.aprende{
+        width: $vw;
+        height: $ha;
+        
+        .tituloAP{
+            h1{
+                font-size: $titulorem2;
+            }
+        }
+
+        .row-aprende{
+            ul{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr;
+                justify-items: center;
+                align-content: center;
+                   
+                 li{
+                    p{
+                        text-align: center;
+                        font-size: $texto1;
+                    }
+                 }
+            }
+        }
+    }
+
+    footer.footer{
+        .footerTitle{
+            h1{
+                font-size: $titulo2;
+            }
+
+            p{
+                font-size: $texto2;
+                padding: 0 40px;
+            }
+        }
+
+        .grid-conteiner{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap:50px 0;
+
+            .mensajes{
+                
+                textarea{
+                    margin-top: 5px;
+                }
+            }
+
+            .contactos{
+                .textContactos{
+                    h1{
+                        font-size: $titulorem2;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+     /*CURSOS*/
+     section{
+        .conteinerCer{
+            padding: 50px;
+
+            .title2{
+                h1{
+                    font-size: $titulorem3;
+                }
+            }
+
+            .img2{
+                img{
+                    width: 100%;
+                }
+            }
+
+
+        }
+    }
+
+
+
+
+    /*Programas a medidas*/
+
+    section{
+
+        .prog{
+            .titleProg{
+                h1{
+                    font-size: $titulorem2;
+                    text-align: center;
+                }
+            }
+
+            .columns{
+                text-align: center;
+
+                    .colum1{
+
+                        h2{
+                            font-size: $titulo3;
+                        }
+                        
+                        ul{
+                            li{
+                                text-align:left;
+                            }
+                        }
+                    }
+
+                    .colum2{
+
+                        h2{
+                            font-size: $titulo3;
+                        }
+
+                        ul{
+                            li{
+                                text-align: left;
+                            }
+                        }
+                    }
+
+
+                    .colum3{
+
+                        h2{
+                            font-size: $titulo3;
+                        }
+
+                        ul{
+                           
+                            li{
+                                text-align: left;
+                            }
+                        }
+                    }
+
+
+            }
+
+            .column-3{
+                ul{
+                    li{
+                        margin: 0;
+                        width: $vw;
+                    }
+                }
+            }
+
+
+            .row{
+                ul{
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+            }
+
+        }
+    }
+
+
+    /*Formulario de inscripción*/
+
+    section{
+        .areaForm{
+            width: $vw;
+            height: $hvh;
+
+
+            .image{
+                .uk{
+                    width: 150px;
+                }
+            }
+
+            .title3{
+
+                h1{
+                    font-size: $titulo1;
+                }
+
+                    .subTitle3{
+                        p{
+                            font-size: $texto2;
+                            padding:0 30px;
+                        }
+                    }
+
+                    .botones{
+                        .btn{
+                            a{
+                                font-size: $texto1;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+
+
+
+    section.conteinerCon{
+        width: $vw;
+        height: $ha;
+        padding: 15px;
+
+        .titleCon{
+            h1{
+                font-size: $texto4;
+                padding: 5% 10px 0 0;
+            }
+            
+            p{
+                padding: 10px;
+            }
+        }
+
+    }
+
+
+
+    /*SOBRE NOSOTROS*/
+
+    section.conteinerSN{
+        .titleSN{
+            .items{
+                padding-top: 40%;
+
+                h1{
+                    font-size: $texto1;
+                }
+                p{
+                    font-size: $texto5;
+                }
+            }
+        }
+    }
+
+    section.historia{
+
+        .historiaContent{
+            .titleSN1{
+                h1{
+                    font-size: $titulorem2  ;
+                }
+
+                p{
+                    font-size: $texto2;
+                }
+            }
+            
+        }
+
+        .grid-historia{
+            width: $vw;
+            height: $ha;
+            display: block;
+
+            .grid-his1{
+                ul{
+                    font-size: $texto3;
+
+                    li{
+                        padding: 5px;
+                    }
+                }
+            }
+
+            .grid-his2{
+                p{
+                    padding-left:32px;
+                    text-align: left;
+                    font-size: $texto3;  
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:959px){
+
+    .conteinerSeccion{
+        width: $vw;
+        height: $hvh;
+        
+        .homeItems{
+            .title{
+                p{
+                    font-size: $titulo2;
+                }
+            }
+
+            .subTitle{
+                h1{
+                    font-size: $titulorem3;
+                }
+            }
+
+            .boton{
+                a{
+                    font-size: $texto1;
+                }
+            }
+        }
+        
+    }
+
+    section.aprende{
+        .row-aprende{
+            ul{
+                display:flex;
+                justify-content: space-evenly;
+            }
+        }
+    }
+
+
+    footer.footer{
+
+        .footerTitle{
+            
+            h1{
+                font-size: $titulorem3;
+            }
+            
+            p{
+                font-size: $titulo4;
+                padding: 0 40px;
+            }
+
+            
+        }
+
+        .grid-conteiner{
+                .mensajes{
+                    input{
+                        font-size: $texto2;
+                    }
+
+                    textarea{
+                         font-size: $texto2;
+                    }
+                }
+            }
+    }
+
+
+
+
+
+     /*CURSOS*/
+     section{
+
+        .areaTest{
+
+            img{
+                width: 300px;
+            }
+
+            h1{
+                font-size: $titulo4;
+            }
+
+            .list{
+                font-size: $texto6;
+            }
+
+            .botones{
+                .btn{
+                    a{
+                        font-size: $texto4;
+                    }
+                }
+            }
+        }
+
+        
+    }
+
+    section{
+
+        .conteinerCer{
+            padding: 50px;
+
+            .title2{
+                h1{
+                     font-size: $titulorem3;
+                }
+
+                .subTitle2{
+                    p{
+                        font-size: $texto5;
+                        padding: 15px;
+                    }
+                }
+            }
+
+            h2{
+                font-size: $texto4;
+            }
+
+            .img2{
+                img{
+                    width: 100%;
+                }
+            }
+
+        }
+        
+    }
+
+
+
+
+
+    /*Programas a medidas*/
+
+    section{
+
+        .prog{
+            .titleProg{
+                h1{
+                    font-size: $titulorem2;
+                    text-align: center;
+                }
+            }
+
+            .columns{
+                text-align: center;
+
+                    .colum1{
+
+                        h2{
+                            font-size: $titulo3;
+                        }
+                        
+                        ul{
+                            li{
+                                text-align:left;
+                            }
+                        }
+                    }
+
+                    .colum2{
+
+                        h2{
+                            font-size: $titulo3;
+                        }
+
+                        ul{
+                            li{
+                                text-align: left;
+                            }
+                        }
+                    }
+
+
+                    .colum3{
+
+                        h2{
+                            font-size: $titulo3;
+                        }
+
+                        ul{
+                           
+                            li{
+                                text-align: left;
+                            }
+                        }
+                    }
+
+
+            }
+
+            .column-3{
+                ul{
+                    li{
+                        margin: 0;
+                        width: $vw;
+                    }
+                }
+            }
+
+
+            .row{
+                ul{
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+            }
+
+        }
+    }
+
+
+
+    /*Formulario de inscripción*/
+
+    section{
+        .areaForm{
+            width: $vw;
+            height: $hvh;
+
+
+            .image{
+                .uk{
+                    width: 150px;
+                }
+            }
+
+            .title3{
+
+                h1{
+                    font-size: $titulo1;
+                }
+
+                    .subTitle3{
+                        p{
+                            font-size: $texto3;
+                            padding:0 30px;
+                        }
+                    }
+
+                    .botones{
+                        .btn{
+                            a{
+                                font-size: $texto1;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+
+
+
+    section.conteinerCon{
+        width: $vw;
+        height: $ha;
+        padding: 15px;
+
+        .titleCon{
+            h1{
+                font-size: $texto6;
+                padding: 5% 10px 0 0;
+            }
+            
+            p{
+                padding:0 40px;
+            }
+        }
+
+    }
+
+
+    /*SOBRE NOSOTROS*/
+
+    section.conteinerSN{
+        .titleSN{
+            .items{
+                padding-top: 25%;
+
+                h1{
+                    font-size: $texto4;
+                }
+                p{
+                    font-size: $titulorem3;
+                }
+            }
+        }
+    }
+
+    section.historia{
+
+        .historiaContent{
+            .titleSN1{
+                h1{
+                    font-size: $titulorem2  ;
+                }
+
+                p{
+                    font-size: $texto2;
+                }
+            }
+            
+        }
+
+        .grid-historia{
+            width: $vw;
+            height: $ha;
+
+            .grid-his1{
+                ul{
+                    font-size: $texto3;
+
+                    li{
+                        padding: 5px;
+                    }
+                }
+            }
+
+            .grid-his2{
+                p{
+                    padding-left:32px;
+                    text-align: left;
+                    font-size: $texto3;  
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width:960px) and (max-width:1023px){
+
+body{
+    box-sizing: border-box;
+}    
+
+.conteinerSeccion{
+    width: $vw;
+    height: $hvh;
+
+    .homeItems{
+         .title{
+            p{
+                font-size: $titulo1;
+            }
+        }
+    
+    
+        .subTitle{
+            h1{
+                font-size: $titulorem3;
+                padding: 15px;
+            }
+        }
+
+        .boton{
+            a{
+                font-size: $texto2;
+            }
+        }
+
+    }    
+}
+
+    .ubi{
+
+        .ubicacion{
+            iframe{
+                width: 90%;
+            }
+        }
+
+    }
+
+    section.aprende{
+
+        .row-aprende{
+            ul{
+                display: flex;
+                justify-content: space-evenly;
+            }
+        }
+    }
+
+
+    footer.footer{
+
+        .footerTitle{
+            
+            h1{
+                font-size: $titulorem3;
+            }
+            
+            p{
+                font-size: $titulo4;
+                padding: 0 40px;
+            }
+
+            
+        }
+
+        .grid-conteiner{
+                .mensajes{
+                    input{
+                        font-size: $texto2;
+                    }
+
+                    textarea{
+                         font-size: $texto2;
+                    }
+                }
+            }
+    }   
+
+
+
+     /*CURSOS*/
+     section{
+
+        .areaTest{
+
+            img{
+                width: 300px;
+            }
+
+            h1{
+                font-size: $titulo4;
+            }
+
+            .list{
+                font-size: $texto6;
+            }
+
+            .botones{
+                .btn{
+                    a{
+                        font-size: $texto4;
+                    }
+                }
+            }
+        }
+
+        
+    }
+
+    section{
+
+        .conteinerCer{
+            padding: 50px;
+
+            .title2{
+                h1{
+                     font-size: $titulorem3;
+                }
+
+                .subTitle2{
+                    p{
+                        font-size: $texto5;
+                        padding: 15px;
+                    }
+                }
+            }
+
+            h2{
+                font-size: $texto4;
+            }
+
+            .img2{
+                img{
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+
+
+    /*Formulario de inscripción*/
+
+    section{
+        .areaForm{
+            width: $vw;
+            height: $hvh;
+
+
+            .image{
+                .uk{
+                    width: 200px;
+                }
+            }
+
+            .title3{
+
+                h1{
+                    font-size: $titulo4;
+                }
+
+                    .subTitle3{
+                        p{
+                            font-size: $texto5;
+                            padding:0 30px;
+                        }
+                    }
+
+                    .botones{
+                        .btn{
+                            a{
+                                font-size: $texto4;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+
+
+
+    section.conteinerCon{
+        width: $vw;
+        height: $ha;
+        padding: 15px;
+
+        .titleCon{
+            h1{
+                font-size: $titulorem2;
+                padding: 10px 0 0 0;
+            }
+            
+            p{
+                font-size: $texto4;
+                padding:0 50px;
+            }
+        }
+
+    }
+
+
+    /*SOBRE NOSOTROS*/
+
+    section.conteinerSN{
+        .titleSN{
+            .items{
+                padding-top: 25%;
+
+                h1{
+                    font-size: $texto4;
+                }
+                p{
+                    font-size: $titulorem3;
+                }
+            }
+        }
+    }
+
+    section.historia{
+
+        .historiaContent{
+            .titleSN1{
+                h1{
+                    font-size: $titulorem2  ;
+                }
+
+                p{
+                    font-size: $texto2;
+                }
+            }
+            
+        }
+
+        .grid-historia{
+            width: $vw;
+            height: $ha;
+
+            .grid-his1{
+                ul{
+                    font-size: $texto3;
+
+                    li{
+                        padding: 5px;
+                    }
+                }
+            }
+
+            .grid-his2{
+                p{
+                    padding-left:32px;
+                    text-align: left;
+                    font-size: $texto3;  
+                }
+            }
+        }
+    }
+
+
+}
+
+
+
+
+
+@media screen and (min-width:1024px) and (max-width:1328px) {
+
+body{
+    box-sizing: border-box;
+}    
+
+    
+    .conteinerSeccion{
+            width: $vw;
+            height: $hvh;
+        
+            .homeItems{
+                 .title{
+                    p{
+                        font-size: $titulo3;
+                    }
+                }
+            
+            
+                .subTitle{
+                    h1{
+                        font-size: $titulorem3;
+                        padding: 25px;
+                    }
+                }
+
+                .boton{
+                    a{
+                        font-size: $texto2;
+                    }
+                }
+
+            }    
+    }
+
+    .ubi{
+
+        .ubicacion{
+            iframe{
+                width: 90%;
+            }
+        }
+        
+    }
+
+    section.aprende{
+
+        .row-aprende{
+            ul{
+                display: flex;
+                justify-content: space-evenly;
+            }
+        }
+    }
+
+    footer.footer{
+        .footerTitle{
+            h1{
+                font-size: $titulorem3;
+            }
+
+            p{
+                font-size: $texto4;
+            }
+        }
+
+        .grid-conteiner{
+            .mensajes{
+                input{
+                    font-size: $texto2;
+                }
+
+                textarea{
+                     font-size: $texto2;
+                }
+            }
+        } 
+    }
+
+
+
+
+
+    /*CURSOS*/
+    section{
+
+        .areaTest{
+
+            img{
+                width: 300px;
+            }
+
+            h1{
+                font-size: $texto6;
+            }
+
+            .list{
+                font-size: $texto6;
+            }
+
+            .botones{
+                .btn{
+                    a{
+                        font-size: $texto6;
+                    }
+                }
+            }
+        }
+
+        
+    }
+
+    section{
+
+        .conteinerCer{
+            padding: 50px;
+
+            .title2{
+                h1{
+                     font-size: $titulorem3;
+                }
+
+                .subTitle2{
+                    p{
+                        font-size: $texto5;
+                        padding: 15px;
+                    }
+                }
+            }
+
+            h2{
+                font-size: $texto4;
+            }
+
+            .img2{
+                img{
+                    width: 70%;
+                }
+            }
+
+        }
+        
+
+
+    }
+
+
+
+    /*Formulario de inscripción*/
+
+    section{
+        .areaForm{
+            width: $vw;
+            height: $hvh;
+
+
+            .image{
+                .uk{
+                    width: 200px;
+                }
+            }
+
+            .title3{
+
+                h1{
+                    font-size: $titulo4;
+                    padding: 0 60px;
+                }
+
+                    .subTitle3{
+                        p{
+                            font-size: $texto5;
+                            padding:0 30px;
+                        }
+                    }
+
+                    .botones{
+                        .btn{
+                            a{
+                                font-size: $texto4;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+
+
+
+    section.conteinerCon{
+        width: $vw;
+        height: $ha;
+        padding: 15px;
+
+        .titleCon{
+            h1{
+                font-size: $titulorem2;
+                padding: 10px 0 0 0;
+            }
+            
+            p{
+                font-size: $texto4;
+                padding:0 50px;
+            }
+        }
+
+    }
+
+
+
+}
+
+

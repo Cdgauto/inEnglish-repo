@@ -40,8 +40,8 @@
 
              .titleSN1{
                 h1{
+                    font-size: $titulo3;
                     color: $colorText;
-                    padding: 10px;
                 }
 
                 p{
@@ -61,7 +61,7 @@
             height: auto;
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 20px;
+            gap: 10px;
 
                 .grid-his1{
                     display: grid;
@@ -71,11 +71,14 @@
                     
                     h1{
                         color: $colorText;
+                        font-size: $titulo3;
                         padding: 5px;
                     }
 
                     p{
                         text-align: center;
+                        padding: 0 20px;
+                        font-size: $titulo2;
                     }
 
 
@@ -94,6 +97,7 @@
 
             h1{
                 color: $colorText;
+                font-size: $titulo3;
                 width: auto;
                 height: 20px;
             }
