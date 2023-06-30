@@ -5,8 +5,7 @@
 
 /*HOME*/
 .conteinerSeccion {
-    background:$bgTr, url(../assets/img/big-ben.png) no-repeat;
-    background-position: center;
+    background:$bgTr, url(../assets/img/profe.avif);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -15,7 +14,7 @@
     text-align: center;
     width: $vw;
     height: 100vh;
-    border-right: $borderLine;
+    border-left: $borderLine;
     border-bottom: $borderLine;
 
 
@@ -55,24 +54,145 @@
 
 }
 
+/*Publicidad*/
+
+section.conteinerDif{
+    width: $vw;
+    height: $ha;
+    background: $bg;
+    padding: 10px;
+    border-right: $borderLine;
+    border-bottom: $borderLine;
+    color: $textB;
+
+        .title__sec{
+            h1{
+                font-size: $titulorem3;
+                padding: 15px 40px;
+
+                    span{
+                        color: $colorText;
+                    }
+            }
+        }     
+
+        .section__1{
+            .conteinerSec1{
+                width: $vw;
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                padding: 20px;
+
+                    .text{
+                        width: 500px;
+                        h1{
+                            font-size: $titulorem2;
+                            text-align: left;
+                        }
+
+                        p{
+                            font-size: $titulorem1;
+                            text-align: left;
+                        }
+                    }
+
+                    .img{
+                        img{
+                            width: 500px;
+                        }
+                    }
+            }
+
+
+            .conteinerSec2{
+                width: $vw;
+                display: flex;
+                justify-content: center;
+                flex-direction: row-reverse;
+                gap: 10px;
+                padding: 20px;
+
+                    .text{
+                        width: 500px;
+                        h1{
+                            font-size: $titulorem2;
+                            text-align: left;
+                        }
+
+                        p{
+                            font-size: $titulorem1;
+                            text-align: left;
+                        }
+                    }
+
+                    .img{
+                        img{
+                            width: 500px;
+                        }
+                    }
+            }
+
+
+            .conteinerSec3{
+                width: $vw;
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                padding: 20px;
+
+                    .text{
+                        width: 500px;
+                        h1{
+                            font-size: $titulorem2;
+                            text-align: left;
+                        }
+
+                        p{
+                            font-size: $titulorem1;
+                            text-align: left;
+                        }
+                    }
+
+                    .img{
+                        img{
+                            width: 500px;
+                        }
+                    }
+            }
+        }
+}
+
+
+
+
 /*Slider*/
 
 .conteiner-slider{
-border-bottom: $borderLine;
-border-left: $borderLine;
+    border-bottom: $borderLine;
+    border-left: $borderLine;
+    width: $vw;
+    height: $ha;
+
+        .carousel-item{
+            img{
+                width: $vw;
+                height: $hvh;
+            }
+        }
 }
 
 
 /*Ubicacion*/
 
 .ubi{
-width: $vw;
-height: auto;
-background: $bg;
-color: $textB;
-padding: 30px;
-border-right:$borderLine;
-border-bottom: $borderLine;
+    width: $vw;
+    height: auto;
+    background: $bg;
+    color: $textB;
+    padding: 30px;
+    border-right:$borderLine;
+    border-bottom: $borderLine;
 
 
 .ubiItems{
@@ -143,8 +263,13 @@ border-bottom: $borderLine;
         ul{
             display: flex;
             justify-content: space-around;
-            padding: 10px;
 
+            .box1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                width: 200px;
 
                 li{
                     width: 100px;
@@ -159,12 +284,22 @@ border-bottom: $borderLine;
                         }
 
                         p{
+                            font-size: $texto2;
                             padding: 5px;
                         }
+
                 }
+            }
+
+            .box1:hover{
+                background: $colorII    ;
+                width:200px;
+                transform: translateY(-10px);
+                transition: all .6s;
+                cursor: pointer;
+            }
+                
         }
     }
 }
 
-@import 'footer';
-   
