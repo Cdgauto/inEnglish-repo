@@ -2,6 +2,7 @@
 
     /*home*/
     section.conteinerSeccion{
+        background: $bg;
         .homeItems{
             .title{
                 p{
@@ -31,6 +32,7 @@
             .title__sec{
                 h1{
                     font-size: $titulorem2;
+                    padding: 20px;
                     text-align: start;
                 }
             }
@@ -44,21 +46,23 @@
                     display: inline-block;
 
                     .text{
-                        h1{
-                            font-size: $titulorem2;
-                            width: $w300;
-                        }
+                        width: $vw;
+                        height: $ha;
+                        box-sizing: border-box;
+                            h1{
+                                font-size: $titulorem2;
+                            }
 
-                        p{
-                            width: $w300;
-                            margin: 0;
-                            font-size: $texto2;
-                        }
+                            p{
+                                margin: 0;
+                                font-size: $texto2;
+                            }
                     }
 
                     .img{
                         img{
-                            width: $w300;
+                            padding: 10px 0;
+                            width: $vw;
                         }
                     }
                 }
@@ -67,21 +71,23 @@
                     display: inline-block;
 
                     .text{
-                        h1{
-                            font-size: $titulorem2;
-                            width: $w300;
-                        }
+                        width: $vw;
+                        height: $ha;
+                        box-sizing: border-box;
+                            h1{
+                                font-size: $titulorem2;
+                            }
 
-                        p{
-                            width: $w300;
-                            margin: 0;
-                            font-size: $texto2;
-                        }
+                            p{
+                                margin: 0;
+                                font-size: $texto2;
+                            }
                     }
 
                     .img{
                         img{
-                            width: $w300;
+                            padding: 10px 0;
+                            width: $vw;
                         }
                     }
                 }
@@ -90,21 +96,23 @@
                     display: inline-block;
 
                     .text{
-                        h1{
-                            font-size: $titulorem2;
-                            width: $w300;
-                        }
+                        width: $vw;
+                        height: $ha;
+                        box-sizing: border-box;
+                            h1{
+                                font-size: $titulorem2;
+                            }
 
-                        p{
-                            width: $w300;
-                            margin: 0;
-                            font-size: $texto2;
-                        }
+                            p{
+                                margin: 0;
+                                font-size: $texto2;
+                            }   
                     }
 
                     .img{
                         img{
-                            width: $w300;
+                            padding: 10px 0;
+                            width: $vw;
                         }
                     }
                 }
@@ -154,7 +162,15 @@
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: 1fr;
                 justify-items: center;
-                align-content: center;
+                padding: 0;
+
+                    .box1{
+                        width: 150px;
+                    }
+
+                    .box1:hover{
+                        width: 150px;
+                    }
 
                     p{
                         font-size: $texto1;
@@ -425,7 +441,7 @@
 
 
 @media screen and (min-width:360px) and (max-width:479px){
-
+    /*Home*/
     .conteinerSeccion{
         .homeItems{
             .title{
@@ -449,6 +465,118 @@
         }
     }
 
+    /*Publicidad*/
+    section.conteinerDif{
+
+            .title__sec{
+                h1{
+                    font-size: $titulorem2;
+                    padding: 20px;
+                    text-align: start;
+                }
+            }
+
+            .section__1{
+                width: $vwa;
+                height: $ha;
+                box-sizing: border-box;
+
+                .conteinerSec1{
+                    display: inline-block;
+
+                    .text{
+                        width: $vw;
+                        height: $ha;
+                        box-sizing: border-box;
+
+                            h1{
+                                font-size: $titulorem2;
+                                width: $vw;
+
+                            }
+
+                            p{
+                                margin: 0;
+                                font-size: $texto2;
+                            }
+                    }
+
+                    .img{
+                        img{
+                            padding: 10px 0;
+                            width: $vw;
+                        }
+                    }
+                }
+
+                .conteinerSec2{
+                    display: inline-block;
+
+                    .text{
+                        width: $vw;
+                        height: $ha;
+                        box-sizing: border-box;
+
+                            h1{
+                                font-size: $titulorem2;
+                            }
+
+                            p{
+                                margin: 0;
+                                font-size: $texto2;
+                            }
+                    }
+
+                    .img{
+                        img{
+                            padding: 10px 0;
+                            width: $vw;
+                        }
+                    }
+                }
+                
+                .conteinerSec3{
+                    display: inline-block;
+
+                    .text{
+                        width: $vw;
+                        height: $ha;
+                        box-sizing: border-box;
+
+                            h1{
+                                font-size: $titulorem2;
+                            }
+
+                            p{
+                                margin: 0;
+                                font-size: $texto2;
+                            }
+                    }
+
+                    .img{
+                        img{
+                            padding: 10px 0;
+                            width: $vw;
+                        }
+                    }
+                }
+            }
+            
+    }       
+    
+    
+    /*Slider*/
+    .conteiner-slider{
+            .carousel-item{
+                img{
+                    width: $vw;
+                    height: $h75;
+                }
+            }
+    }
+
+
+    /*Ubucacion*/
     section.ubi{
 
         .ubicacion{
@@ -458,7 +586,7 @@
         }
     }
 
-
+    /*Aprende*/
     section.aprende{
 
         .tituloAP{
@@ -474,6 +602,16 @@
                 grid-template-rows: 1fr;
                 justify-items: center;
                 align-content: center;
+                padding: 0;
+
+                    .box1{
+                        width: 150px;
+
+                    }
+
+                    .box1:hover{
+                        width: 150px;
+                    }
 
                     p{
                         font-size: $texto1;
@@ -737,9 +875,8 @@
 
 
 @media screen and (min-width:480px) and (max-width:767px){
-
+    /*Home*/
     .conteinerSeccion{
-        
             .homeItems{
                 .title{
                     p{
@@ -764,6 +901,117 @@
 
     }
 
+    /*Publicidad*/
+    section.conteinerDif{
+
+        .title__sec{
+            h1{
+                font-size: $titulorem3;
+                padding: 20px;
+                text-align: start;
+            }
+        }
+
+        .section__1{
+            width: $vwa;
+            height: $ha;
+            box-sizing: border-box;
+
+            .conteinerSec1{
+                display: inline-block;
+
+                .text{
+                    width: $vw;
+                    height: $ha;
+                    box-sizing: border-box;
+
+                        h1{
+                            font-size: $titulorem2;
+                            width: $vw;
+
+                        }
+
+                        p{
+                            margin: 0;
+                            font-size: $texto2;
+                        }
+                }
+
+                .img{
+                    img{
+                        padding: 10px 0;
+                        width: $vw;
+                    }
+                }
+            }
+
+            .conteinerSec2{
+                display: inline-block;
+
+                .text{
+                    width: $vw;
+                    height: $ha;
+                    box-sizing: border-box;
+
+                        h1{
+                            font-size: $titulorem2;
+                        }
+
+                        p{
+                            margin: 0;
+                            font-size: $texto2;
+                        }
+                }
+
+                .img{
+                    img{
+                        padding: 10px 0;
+                        width: $vw;
+                    }
+                }
+            }
+            
+            .conteinerSec3{
+                display: inline-block;
+
+                .text{
+                    width: $vw;
+                    height: $ha;
+                    box-sizing: border-box;
+
+                        h1{
+                            font-size: $titulorem2;
+                        }
+
+                        p{
+                            margin: 0;
+                            font-size: $texto2;
+                        }
+                }
+
+                .img{
+                    img{
+                        padding: 10px 0;
+                        width: $vw;
+                    }
+                }
+            }
+        }
+        
+    }       
+
+
+    /*Slider*/
+    .conteiner-slider{
+        .carousel-item{
+            img{
+                width: $vw;
+                height: $h75;
+            }
+        }
+    }
+
+    /*Aprende*/
     section.aprende{
         width: $vw;
         height: $ha;
@@ -781,6 +1029,7 @@
                 grid-template-rows: 1fr;
                 justify-items: center;
                 align-content: center;
+
                    
                  li{
                     p{
@@ -792,6 +1041,7 @@
         }
     }
 
+    /*Pie de página*/
     footer.footer{
         .footerTitle{
             h1{
@@ -1057,7 +1307,7 @@
 
 
 @media screen and (min-width:768px) and (max-width:959px){
-
+    /*Home*/
     .conteinerSeccion{
         width: $vw;
         height: $hvh;
@@ -1084,6 +1334,118 @@
         
     }
 
+    /*Publicidad*/
+    section.conteinerDif{
+
+        .title__sec{
+            h1{
+                font-size: $titulorem3;
+                padding: 20px;
+                text-align: start;
+            }
+        }
+
+        .section__1{
+            width: $vwa;
+            height: $ha;
+            box-sizing: border-box;
+
+            .conteinerSec1{
+                display: inline-block;
+
+                .text{
+                    width: $vw;
+                    height: $ha;
+                    box-sizing: border-box;
+
+                        h1{
+                            font-size: $titulorem2;
+                            padding: 10px 0;
+                        }
+
+                        p{
+                            margin: 0;
+                            font-size: $texto5;
+                        }
+                }
+
+                .img{
+                    img{
+                        padding: 10px 0;
+                        width: $vw;
+                    }
+                }
+            }
+
+            .conteinerSec2{
+                display: inline-block;
+
+                .text{
+                    width: $vw;
+                    height: $ha;
+                    box-sizing: border-box;
+
+                        h1{
+                            font-size: $titulorem2;
+                            padding: 10px 0;
+                        }
+
+                        p{
+                            margin: 0;
+                            font-size: $texto5;
+                        }
+                }
+
+                .img{
+                    img{
+                        padding: 10px 0;
+                        width: $vw;
+                    }
+                }
+            }
+            
+            .conteinerSec3{
+                display: inline-block;
+
+                .text{
+                    width: $vw;
+                    height: $ha;
+                    box-sizing: border-box;
+
+                        h1{
+                            font-size: $titulorem2;
+                            padding: 10px 0;
+                        }
+
+                        p{
+                            margin: 0;
+                            font-size: $texto5;
+                        }
+                }
+
+                .img{
+                    img{
+                        padding: 10px 0;
+                        width: $vw;
+                    }
+                }
+            }
+        }
+        
+    }       
+
+
+    /*Slider*/
+    .conteiner-slider{
+        .carousel-item{
+            img{
+                width: $vw;
+                height: $h75;
+            }
+        }
+    }
+
+    /*Aprende*/
     section.aprende{
         .row-aprende{
             ul{
@@ -1093,7 +1455,7 @@
         }
     }
 
-
+    /*Pie de página*/
     footer.footer{
 
         .footerTitle{
@@ -1399,36 +1761,149 @@
 body{
     box-sizing: border-box;
 }    
-
+/*Home*/
 .conteinerSeccion{
     width: $vw;
     height: $hvh;
 
-    .homeItems{
-         .title{
-            p{
-                font-size: $titulo1;
+        .homeItems{
+            .title{
+                p{
+                    font-size: $titulo1;
+                }
             }
-        }
-    
-    
-        .subTitle{
+        
+        
+            .subTitle{
+                h1{
+                    font-size: $titulorem3;
+                    padding: 15px;
+                }
+            }
+
+            .boton{
+                a{
+                    font-size: $texto2;
+                }
+            }
+
+        }    
+    }
+
+    /*Publicidad*/
+    section.conteinerDif{
+
+        .title__sec{
             h1{
                 font-size: $titulorem3;
-                padding: 15px;
+                padding: 20px;
+                text-align: start;
+                padding: 20px 30px;
             }
         }
 
-        .boton{
-            a{
-                font-size: $texto2;
+        .section__1{
+            width: $vwa;
+            height: $ha;
+            box-sizing: border-box;
+
+            .conteinerSec1{
+
+                .text{
+                    width: $vw;
+                    height: $ha;
+                    box-sizing: border-box;
+
+                        h1{
+                            font-size: $titulorem2;
+                            padding: 10px 0;
+                        }
+
+                        p{
+                            margin: 0;
+                            font-size: $texto2;
+                        }
+                }
+
+                .img{
+                    img{
+                        padding: 10px 0;
+                        width: 500px;
+                        height: 350px;
+                    }
+                }
+            }
+
+            .conteinerSec2{
+
+                .text{
+                    width: $vw;
+                    height: $ha;
+                    box-sizing: border-box;
+
+                        h1{
+                            font-size: $titulorem2;
+                            padding: 10px 0;
+                        }
+
+                        p{
+                            margin: 0;
+                            font-size: $texto2;
+                        }
+                }
+
+                .img{
+                    img{
+                        padding: 10px 0;
+                        width: 500px;
+                        height: 350px;
+                    }
+                }
+            }
+            
+            .conteinerSec3{
+
+                .text{
+                    width: $vw;
+                    height: $ha;
+                    box-sizing: border-box;
+
+                        h1{
+                            font-size: $titulorem2;
+                            padding: 10px 0;
+                        }
+
+                        p{
+                            margin: 0;
+                            font-size: $texto2;
+                        }
+                }
+
+                .img{
+                    img{
+                        padding: 10px 0;
+                        width: 500px;
+                        height: 350px;
+                    }
+                }
             }
         }
+        
+    }       
 
-    }    
-}
 
-    .ubi{
+    /*Slider*/
+    .conteiner-slider{
+        .carousel-item{
+            img{
+                width: $vw;
+                height: $hvh;
+            }
+        }
+    }
+
+    /*Ubicacion*/
+    section.ubi{
 
         .ubicacion{
             iframe{
@@ -1438,6 +1913,7 @@ body{
 
     }
 
+    /*Aprende*/
     section.aprende{
 
         .row-aprende{
@@ -1448,7 +1924,7 @@ body{
         }
     }
 
-
+    /*Pie de página*/
     footer.footer{
 
         .footerTitle{
@@ -1670,7 +2146,7 @@ body{
     box-sizing: border-box;
 }    
 
-    
+    /*Home*/
     .conteinerSeccion{
             width: $vw;
             height: $hvh;
@@ -1699,7 +2175,33 @@ body{
             }    
     }
 
-    .ubi{
+    
+    
+
+
+    /*Slider*/
+    .conteiner-slider{
+        .carousel-item{
+            img{
+                width: $vw;
+                height: $hvh;
+            }
+        }
+    }
+
+    /*Ubicacion*/
+    section.ubi{
+
+        .ubicacion{
+            iframe{
+                width: 90%;
+            }
+        }
+
+    }
+
+    /*Ubicacion*/
+    section.ubi{
 
         .ubicacion{
             iframe{
@@ -1709,6 +2211,7 @@ body{
         
     }
 
+    /*Aprende*/
     section.aprende{
 
         .row-aprende{
@@ -1719,6 +2222,7 @@ body{
         }
     }
 
+    /*Pie de página*/
     footer.footer{
         .footerTitle{
             h1{
