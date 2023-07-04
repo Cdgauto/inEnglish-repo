@@ -1,0 +1,106 @@
+/*Barra de navegacion*/
+header.navbar{
+    width: $vw;
+    height: $ha;
+    background: $backg;
+    padding: 0;
+
+        .logoIN{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+
+                img{
+                    width: 40px;
+                    border-radius: 50%;
+                    height: auto;
+                }
+
+                h1{
+                    color: $textB;
+                    font-size: $texto3;
+                    margin: 0;
+                }
+        }
+}
+
+/*Alerta*/
+section.alerta{
+    width: $vw;
+    height: $ha;
+    background: $bg;
+    
+        .alertConteiner{
+            width: $vw;
+            height: $ha;
+            padding: 30px;
+
+            .alert{
+                width: 90%;
+                margin: 0px auto;
+                padding: 10px;
+                
+                p{
+                    margin: 0;
+                }
+             }
+        }
+
+    
+}
+
+/*Barra de datos*/
+
+section.datosContent{
+    width: $vw;
+    height: $ha;
+    padding: 0;
+
+        .content{
+            width: $vw;
+            background: $backg;
+            padding: 10px;
+
+                h1{
+                    font-size: $titulo3;
+                    color: $textB;
+                    text-align: left;
+                    margin: 0;
+                }
+        }
+
+}
+
+
+/*Datos*/
+section.conteinerDatos{
+    width: $vw;
+    height: $ha;
+    background: $bg;
+    padding: 30px;
+    color: $textB;
+
+        .form-group{
+            padding: 10px;
+
+                input{
+                    width: $vw;
+                    font-size: 12px;
+                    padding:6px 10px;
+                    border-style: none;
+                    border-radius: 6px;
+                    
+                }
+
+                small{
+                    font-size: 10px;
+                }
+
+                button{
+                    padding: 20px;
+                }
+        }
+}
+

@@ -1,6 +1,5 @@
 @charset "UTF-8";
-/*Imports pargials*/
-/*Variables*/
+/*Imports pargials*/ /*Variables*/
 /*Width*/
 /*Height*/
 /*Colores*/
@@ -300,6 +299,94 @@ section .conteinerCer .img2 {
 section .conteinerCer .img2 img {
   width: 500px;
   border-radius: 8px;
+}
+
+/*Barra de navegacion*/
+header.navbar {
+  width: 100%;
+  height: auto;
+  background: #2b2a2a;
+  padding: 0;
+}
+header.navbar .logoIN {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+header.navbar .logoIN img {
+  width: 40px;
+  border-radius: 50%;
+  height: auto;
+}
+header.navbar .logoIN h1 {
+  color: #fff;
+  font-size: 18px;
+  margin: 0;
+}
+
+/*Alerta*/
+section.alerta {
+  width: 100%;
+  height: auto;
+  background: #111;
+}
+section.alerta .alertConteiner {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+section.alerta .alertConteiner .alert {
+  width: 90%;
+  margin: 0px auto;
+  padding: 10px;
+}
+section.alerta .alertConteiner .alert p {
+  margin: 0;
+}
+
+/*Barra de datos*/
+section.datosContent {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+section.datosContent .content {
+  width: 100%;
+  background: #2b2a2a;
+  padding: 10px;
+}
+section.datosContent .content h1 {
+  font-size: 20px;
+  color: #fff;
+  text-align: left;
+  margin: 0;
+}
+
+/*Datos*/
+section.conteinerDatos {
+  width: 100%;
+  height: auto;
+  background: #111;
+  padding: 30px;
+  color: #fff;
+}
+section.conteinerDatos .form-group {
+  padding: 10px;
+}
+section.conteinerDatos .form-group input {
+  width: 100%;
+  font-size: 12px;
+  padding: 6px 10px;
+  border-style: none;
+  border-radius: 6px;
+}
+section.conteinerDatos .form-group small {
+  font-size: 10px;
+}
+section.conteinerDatos .form-group button {
+  padding: 20px;
 }
 
 section .prog {
